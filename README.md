@@ -49,6 +49,7 @@ It's the list with popular deep learning models related to classification and se
 ### Semantic segmentation
 - U-Net (['U-Net: Convolutional Networks for Biomedical Image Segmentation'](https://arxiv.org/pdf/1505.04597.pdf)) [2015]
 - DeconvNet (['Learning Deconvolution Network for Semantic Segmentation'](https://arxiv.org/pdf/1505.04366.pdf)) [2015]
+- Piecewise (['Efficient piecewise training of deep structured models for semantic segmentation'](https://arxiv.org/abs/1504.01013)) [2015]
 - SegNet (['SegNet: A Deep Convolutional Encoder-Decoder Architecture for Image Segmentation'](https://arxiv.org/pdf/1511.00561.pdf)) [2016]
 - FCN (['Fully Convolutional Networks for Semantic Segmentation'](https://arxiv.org/pdf/1605.06211.pdf)) [2016]
 - ENet (['ENet: A Deep Neural Network Architecture for Real-Time Semantic Segmentation'](https://arxiv.org/pdf/1606.02147.pdf)) [2016]
@@ -76,8 +77,44 @@ It's the list with popular deep learning models related to classification and se
 - R2U-Net (['Recurrent Residual Convolutional Neural Network based on U-Net (R2U-Net) for Medical Image Segmentation'](https://arxiv.org/pdf/1802.06955.pdf)) [2018]
 - Attention U-Net (['Attention U-Net: Learning Where to Look for the Pancreas'](https://arxiv.org/pdf/1804.03999.pdf)) [2018]
 - DANet (['Dual Attention Network for Scene Segmentation'](https://arxiv.org/pdf/1809.02983.pdf)) [2018]
+- ENCNet (['Context Encoding for Semantic Segmentation'](https://arxiv.org/abs/1803.08904)) [2018]
 - ShelfNet (['ShelfNet for Real-time Semantic Segmentation'](https://arxiv.org/pdf/1811.11254.pdf)) [2018]
 - LadderNet (['LADDERNET: MULTI-PATH NETWORKS BASED ON U-NET FOR MEDICAL IMAGE SEGMENTATION'](https://arxiv.org/pdf/1810.07810.pdf)) [2018]
+
+|    Model      |   PASCAL-Context    |  Cityscapes (mIOU)  | PASCAL VOC 2012 (mIOU) |  COCO Stuff  |    ADE20K VAL (mIOU)   |
+|:-------------:|:-------------------:|:-------------------:|:----------------------:|:------------:|:----------------------:| 
+|   U-Net       |          ?          |          ?          |             ?          |       ?      |            ?           |
+|   DeconvNet   |          ?          |          ?          |           72.5         |       ?      |            ?           |
+|   Piecewise   |        43.3         |        71.6         |           78.0         |       ?      |            ?           |
+|   SegNet      |          ?          |        56.1         |             ?          |       ?      |            ?           |
+|   FCN         |        37.8         |        65.3         |           62.2         |     22.7     |          29.39         |
+|   ENet        |          ?          |        58.3         |             ?          |       ?      |            ?           |
+|   DilatedNet  |          ?          |          ?          |           67.6         |       ?      |          32.31         |
+|   PixelNet    |          ?          |          ?          |           69.8         |       ?      |            ?           |
+|   RefineNet   |        47.3         |        73.6         |           83.4         |     33.6     |          40.70         |
+|   LRR         |          ?          |        71.8         |           79.3         |       ?      |            ?           |
+|   FRRN        |          ?          |        71.8         |             ?          |       ?      |            ?           |
+|   MultiNet    |          ?          |          ?          |             ?          |       ?      |            ?           |
+|   DeepLab     |        45.7         |        64.8         |           79.7         |       ?      |            ?           |
+|   LinkNet     |          ?          |          ?          |             ?          |       ?      |            ?           |
+|   Tiramisu    |          ?          |          ?          |             ?          |       ?      |            ?           |
+|   ICNet       |          ?          |        70.6         |             ?          |       ?      |            ?           |
+|   ERFNet      |          ?          |        68.0         |             ?          |       ?      |            ?           |
+|   PSPNet      |        47.8         |        80.2         |           85.4         |       ?      |          44.94         |
+|   GCN         |          ?          |        76.9         |           82.2         |       ?      |            ?           |
+|   Segaware    |          ?          |          ?          |           69.0         |       ?      |            ?           |
+|   PixelDCN    |          ?          |          ?          |           73.0         |       ?      |            ?           |
+|   DeepLabv3   |          ?          |          ?          |           85.7         |       ?      |            ?           |
+|   DUC, HDC    |          ?          |        77.1         |             ?          |       ?      |            ?           |
+|   ShuffleSeg  |          ?          |        59.3         |             ?          |       ?      |            ?           |
+|  AdaptSegNet  |          ?          |        46.7         |             ?          |       ?      |            ?           |
+| TuSimple-DUC  |        80.1         |          ?          |           83.1         |       ?      |            ?           |
+|   R2U-Net     |          ?          |          ?          |             ?          |       ?      |            ?           |
+|Attention U-Net|          ?          |          ?          |             ?          |       ?      |            ?           |
+|   DANet       |        52.6         |        81.5         |             ?          |     39.7     |            ?           |
+|   ENCNet      |        51.7         |        75.8         |           85.9         |       ?      |          44.65         |
+|   ShelfNet    |        48.4         |        75.8         |           84.2         |       ?      |            ?           |
+|   LadderNet   |          ?          |          ?          |             ?          |       ?      |            ?           |
 
 
 ### Detection models
