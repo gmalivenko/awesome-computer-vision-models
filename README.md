@@ -1,2 +1,81 @@
-# awesome-computer-vision-models
+# awesome-computer-vision-models [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
+
 It's the list with popular deep learning models related to classification and segmentation task
+
+## Papers
+
+### Classification models
+
+- AlexNet (['One weird trick for parallelizing convolutional neural networks'](https://arxiv.org/abs/1404.5997)) [2014]
+- VGG/BN-VGG (['Very Deep Convolutional Networks for Large-Scale Image Recognition'](https://arxiv.org/abs/1409.1556)) [2014]
+- ResNet (['Deep Residual Learning for Image Recognition'](https://arxiv.org/abs/1512.03385)) [2015]
+- InceptionV3 (['Rethinking the Inception Architecture for Computer Vision'](https://arxiv.org/abs/1512.00567)) [2015]
+- PreResNet (['Identity Mappings in Deep Residual Networks'](https://arxiv.org/abs/1603.05027)) [2016]
+- DenseNet (['Densely Connected Convolutional Networks'](https://arxiv.org/abs/1608.06993)) [2016]
+- PyramidNet (['Deep Pyramidal Residual Networks'](https://arxiv.org/abs/1610.02915)) [2016]
+- ResNeXt (['Aggregated Residual Transformations for Deep Neural Networks'](http://arxiv.org/abs/1611.05431)) [2016]
+- WRN (['Wide Residual Networks'](https://arxiv.org/abs/1605.07146)) [2016]
+- Xception (['Xception: Deep Learning with Depthwise Separable Convolutions'](https://arxiv.org/abs/1610.02357)) [2016]
+- InceptionV4/InceptionResNetV2 (['Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning'](https://arxiv.org/abs/1602.07261)) [2016]
+- PolyNet (['PolyNet: A Pursuit of Structural Diversity in Very Deep Networks'](https://arxiv.org/abs/1611.05725)) [2016]
+- DarkNet (['Darknet: Open source neural networks in C'](https://github.com/pjreddie/darknet)) [2016?]
+- ResAttNet (['Residual Attention Network for Image Classification'](https://arxiv.org/abs/1704.06904)) [2017]
+- CondenseNet (['CondenseNet: An Efficient DenseNet using Learned Group Convolutions'](https://arxiv.org/abs/1711.09224)) [2017]
+- DRN-C/DRN-D (['Dilated Residual Networks'](https://arxiv.org/abs/1705.09914)) [2017]
+- DPN (['Dual Path Networks'](https://arxiv.org/abs/1707.01629)) [2017]
+- ShuffleNet (['ShuffleNet: An Extremely Efficient Convolutional Neural Network for Mobile Devices'](https://arxiv.org/abs/1707.01083)) [2017]
+- DiracNetV2 (['DiracNets: Training Very Deep Neural Networks Without Skip-Connections'](https://arxiv.org/abs/1706.00388)) [2017]]
+- SENet/SE-ResNet/SE-PreResNet/SE-ResNeXt (['Squeeze-and-Excitation Networks'](https://arxiv.org/abs/1709.01507)) [2017]
+- MobileNet (['MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications'](https://arxiv.org/abs/1704.04861)) [2017]
+- NASNet (['Learning Transferable Architectures for Scalable Image Recognition'](https://arxiv.org/abs/1707.07012)) [2017]
+- AirNet/AirNeXt (['Attention Inspiring Receptive-Fields Network for Learning Invariant Representations'](https://ieeexplore.ieee.org/document/8510896)) [2018]
+- BAM-ResNet (['BAM: Bottleneck Attention Module'](https://arxiv.org/abs/1807.06514)) [2018]
+- CBAM-ResNet (['CBAM: Convolutional Block Attention Module'](https://arxiv.org/abs/1807.06521)) [2018]
+- SqueezeNet/SqueezeResNet (['SqueezeNet: AlexNet-level accuracy with 50x fewer parameters and <0.5MB model size'](https://arxiv.org/abs/1602.07360)) [2016]
+- SqueezeNext (['SqueezeNext: Hardware-Aware Neural Network Design'](https://arxiv.org/abs/1803.10615)) [2018]
+- ShuffleNetV2 (['ShuffleNet V2: Practical Guidelines for Efficient CNN Architecture Design'](https://arxiv.org/abs/1807.11164)) [2018]
+- MENet (['Merging and Evolution: Improving Convolutional Neural Networks for Mobile Applications'](https://arxiv.org/abs/1803.09127)) [2018]
+- FD-MobileNet (['FD-MobileNet: Improved MobileNet with A Fast Downsampling Strategy'](https://arxiv.org/abs/1802.03750)) [2018]
+- MobileNetV2 (['MobileNetV2: Inverted Residuals and Linear Bottlenecks'](https://arxiv.org/abs/1801.04381)) [2018]
+- IGCV3 (['IGCV3: Interleaved Low-Rank Group Convolutions for Efficient Deep Neural Networks'](https://arxiv.org/abs/1806.00178)) [2018]
+- MnasNet (['MnasNet: Platform-Aware Neural Architecture Search for Mobile'](https://arxiv.org/abs/1807.11626)) [2018]
+- DARTS (['DARTS: Differentiable Architecture Search'](https://arxiv.org/abs/1806.09055)) [2018]
+- PNASNet (['Progressive Neural Architecture Search'](https://arxiv.org/abs/1712.00559)) [2018]
+- Amoeba (['Regularized Evolution for Image Classifier Architecture Search'](https://arxiv.org/abs/1802.01548)) [2018]
+
+
+### Segmentation models
+
+### Semantic segmentation
+- U-Net (['U-Net: Convolutional Networks for Biomedical Image Segmentation'](https://arxiv.org/pdf/1505.04597.pdf)) [2015]
+- DeconvNet (['Learning Deconvolution Network for Semantic Segmentation'](https://arxiv.org/pdf/1505.04366.pdf)) [2015]
+- SegNet (['SegNet: A Deep Convolutional Encoder-Decoder Architecture for Image Segmentation'](https://arxiv.org/pdf/1511.00561.pdf)) [2016]
+- FCN (['Fully Convolutional Networks for Semantic Segmentation'](https://arxiv.org/pdf/1605.06211.pdf)) [2016]
+- ENet (['ENet: A Deep Neural Network Architecture for Real-Time Semantic Segmentation'](https://arxiv.org/pdf/1606.02147.pdf)) [2016]
+- DilatedNet (['MULTI-SCALE CONTEXT AGGREGATION BY DILATED CONVOLUTIONS'](https://arxiv.org/pdf/1511.07122.pdf)) [2016]
+- PixelNet (['PixelNet: Towards a General Pixel-Level Architecture'](https://arxiv.org/pdf/1609.06694.pdf)) [2016]
+- RefineNet (['RefineNet: Multi-Path Refinement Networks for High-Resolution Semantic Segmentation'](https://arxiv.org/pdf/1611.06612.pdf)) [2016]
+- LRR (['Laplacian Pyramid Reconstruction and Refinement for Semantic Segmentation'](https://arxiv.org/pdf/1605.02264.pdf)) [2016]
+- FRRN (['Full-Resolution Residual Networks for Semantic Segmentation in Street Scenes'](https://arxiv.org/pdf/1611.08323.pdf)) [2016]
+- Semantic Segmentation using Adversarial Networks (['Semantic Segmentation using Adversarial Networks'](https://arxiv.org/pdf/1611.08408.pdf)) [2016]
+- MultiNet (['MultiNet: Real-time Joint Semantic Reasoning for Autonomous Driving'](https://arxiv.org/pdf/1612.07695.pdf)) [2016]
+- DeepLab (['DeepLab: Semantic Image Segmentation with Deep Convolutional Nets, Atrous Convolution, and Fully Connected CRFs'](https://arxiv.org/pdf/1606.00915.pdf)) [2017]
+- LinkNet (['LinkNet: Exploiting Encoder Representations for Efficient Semantic Segmentation'](https://arxiv.org/pdf/1707.03718.pdf)) [2017]
+- Tiramisu (['The One Hundred Layers Tiramisu: Fully Convolutional DenseNets for Semantic Segmentation'](https://arxiv.org/pdf/1611.09326.pdf)) [2017]
+- ICNet (['ICNet for Real-Time Semantic Segmentation on High-Resolution Images'](https://arxiv.org/pdf/1704.08545.pdf)) [2017]
+- ERFNet (['Efficient ConvNet for Real-time Semantic Segmentation'](http://www.robesafe.uah.es/personal/eduardo.romera/pdfs/Romera17iv.pdf)) [2017]
+- PSPNet (['Pyramid Scene Parsing Network'](https://arxiv.org/pdf/1612.01105.pdf)) [2017]
+- GCN (['Large Kernel Matters — Improve Semantic Segmentation by Global Convolutional Network'](https://arxiv.org/pdf/1703.02719.pdf)) [2017]
+- Segaware (['Segmentation-Aware Convolutional Networks Using Local Attention Masks'](https://arxiv.org/pdf/1708.04607.pdf)) [2017]
+- PixelDCN (['PIXEL DECONVOLUTIONAL NETWORKS'](https://arxiv.org/pdf/1705.06820.pdf)) [2017]
+- DeepLabv3 (['Rethinking Atrous Convolution for Semantic Image Segmentation'](https://arxiv.org/pdf/1706.05587.pdf)) [2017]
+- DUC, HDC (['Understanding Convolution for Semantic Segmentation'](https://arxiv.org/pdf/1702.08502.pdf)) [2018]
+- ShuffleSeg (['SHUFFLESEG: REAL-TIME SEMANTIC SEGMENTATION NETWORK'](https://arxiv.org/pdf/1803.03816.pdf)) [2018]
+- AdaptSegNet (['Learning to Adapt Structured Output Space for Semantic Segmentation'](https://arxiv.org/pdf/1802.10349.pdf)) [2018]
+- TuSimple-DUC (['Understanding Convolution for Semantic Segmentation'](https://arxiv.org/pdf/1702.08502.pdf)) [2018]
+- R2U-Net (['Recurrent Residual Convolutional Neural Network based on U-Net (R2U-Net) for Medical Image Segmentation'](https://arxiv.org/pdf/1802.06955.pdf)) [2018]
+- Attention U-Net (['Attention U-Net: Learning Where to Look for the Pancreas'](https://arxiv.org/pdf/1804.03999.pdf)) [2018]
+- DANet (['Dual Attention Network for Scene Segmentation'](https://arxiv.org/pdf/1809.02983.pdf)) [2018]
+- ShelfNet (['ShelfNet for Real-time Semantic Segmentation'](https://arxiv.org/pdf/1811.11254.pdf)) [2018]
+- LadderNet (['LADDERNET: MULTI-PATH NETWORKS BASED ON U-NET FOR MEDICAL IMAGE SEGMENTATION'](https://arxiv.org/pdf/1810.07810.pdf)) [2018]
+
