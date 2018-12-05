@@ -147,41 +147,41 @@ It's the list with popular deep learning models related to classification and se
 |   OverFeat   |           -         |          -          |      -     |    ICLR'14   |
 |   MultiBox   |         29.0        |          -          |      -     |    CVPR'14   |
 |    SPP-Net   |         59.2        |          -          |      -     |    ECCV'14   |
-|    MR-CNN    |     78.2 (07+12)    |     73.9 (07+12)    |      -     |    ICCV'15   |
+|    MR-CNN    |         78.2        |        73.9         |      -     |    ICCV'15   |
 | AttentionNet |           -         |          -          |      -     |    ICCV'15   |
-|  Fast R-CNN  |     70.0 (07+12)    |     68.4 (07++12)   |      -     |    ICCV'15   |
-| Faster R-CNN |     73.2 (07+12)    |     70.4 (07++12)   |      -     |    NIPS'15   |
-|    YOLO v1   |     66.4 (07+12)    |     57.9 (07++12)   |      -     |    CVPR'16   |
-|     G-CNN    |         66.8        |     66.4 (07+12)    |      -     |    CVPR'16   |
+|  Fast R-CNN  |         70.0        |        68.4         |      -     |    ICCV'15   |
+| Faster R-CNN |         73.2        |        70.4         |    36.8    |    NIPS'15   |
+|    YOLO v1   |         66.4        |        57.9         |      -     |    CVPR'16   |
+|     G-CNN    |         66.8        |        66.4         |      -     |    CVPR'16   |
 |     AZNet    |         70.4        |          -          |    22.3    |    CVPR'16   |
-|      ION     |         80.1        |         77.9        |    33.1    |    CVPR'16   |
-|   HyperNet   |     76.3 (07+12)    |    71.4 (07++12)    |      -     |    CVPR'16   |
-|     OHEM     |     78.9 (07+12)    |    76.3 (07++12)    |    22.4    |    CVPR'16   |
+|      ION     |         80.1        |        77.9         |    33.1    |    CVPR'16   |
+|   HyperNet   |         76.3        |        71.4         |      -     |    CVPR'16   |
+|     OHEM     |         78.9        |        76.3         |    22.4    |    CVPR'16   |
 |      MPN     |           -         |          -          |    33.2    |    BMVC'16   |
-|      SSD     |     76.8 (07+12)    |    74.9 (07++12)    |      -     |    ECCV'16   |
-|    GBDNet    |     77.2 (07+12)    |          -          |    27.0    |    ECCV'16   |
-|      CPF     |     76.4 (07+12)    |    72.6 (07++12)    |      -     |    ECCV'16   |
+|      SSD     |         76.8        |        74.9         |    31.2    |    ECCV'16   |
+|    GBDNet    |         77.2        |          -          |    27.0    |    ECCV'16   |
+|      CPF     |         76.4        |        72.6         |      -     |    ECCV'16   |
 |    MS-CNN    |           -         |          -          |      -     |    ECCV'16   |
-|     R-FCN    |     79.5 (07+12)    |    77.6 (07++12)    |    29.9    |    NIPS'16   |
+|     R-FCN    |         79.5        |        77.6         |    29.9    |    NIPS'16   |
 |    PVANET    |          -          |          -          |      -     |   NIPSW'16   |
 |  DeepID-Net  |         69.0        |          -          |      -     |    PAMI'16   |
-|      NoC     |     71.6 (07+12)    |    68.8 (07+12)     |    27.2    |   TPAMI'16   |
-|     DSSD     |     81.5 (07+12)    |    80.0 (07++12)    |      -     |   arXiv'17   |
+|      NoC     |         71.6        |        68.8         |    27.2    |   TPAMI'16   |
+|     DSSD     |         81.5        |        80.0         |      -     |   arXiv'17   |
 |      TDM     |          -          |          -          |    37.3    |    CVPR'17   |
 |      FPN     |          -          |          -          |    36.2    |    CVPR'17   |
-|    YOLO v2   |     78.6 (07+12)    |    73.4 (07++12)    |    21.6    |    CVPR'17   |
-|      RON     |     77.6 (07+12)    |    75.4 (07++12)    |      -     |    CVPR'17   |
+|    YOLO v2   |         78.6        |        73.4         |    21.6    |    CVPR'17   |
+|      RON     |         77.6        |        75.4         |      -     |    CVPR'17   |
 |      DCN     |          -          |          -          |      -     |    ICCV'17   |
-|     DeNet    |     77.1 (07+12)    |    73.9 (07++12)    |    33.8    |    ICCV'17   |
-|   CoupleNet  |     82.7 (07+12)    |    80.4 (07++12)    |    34.4    |    ICCV'17   |
+|     DeNet    |         77.1        |        73.9         |    33.8    |    ICCV'17   |
+|   CoupleNet  |         82.7        |        80.4         |    34.4    |    ICCV'17   |
 |   RetinaNet  |          -          |          -          |    39.1    |    ICCV'17   |
-|  Mask R-CNN  |          -          |          -          |      -     |    ICCV'17   |
-|     DSOD     |     77.7 (07+12)    |    76.3 (07++12)    |      -     |    ICCV'17   |
+|  Mask R-CNN  |          -          |          -          |    39.8    |    ICCV'17   |
+|     DSOD     |         77.7        |        76.3         |      -     |    ICCV'17   |
 |      SMN     |         70.0        |          -          |      -     |    ICCV'17   |
 |    YOLO v3   |          -          |          -          |    33.0    |   Arxiv'18   |
-|      SIN     |     76.0 (07+12)    |    73.1 (07++12)    |    23.2    |    CVPR'18   |
-|     STDN     |     80.9 (07+12)    |          -          |      -     |    CVPR'18   |
-|   RefineDet  |   **83.8 (07+12)**  |  **83.5 (07++12)**  |    41.8    |    CVPR'18   |
+|      SIN     |         76.0        |        73.1         |    23.2    |    CVPR'18   |
+|     STDN     |         80.9        |          -          |      -     |    CVPR'18   |
+|   RefineDet  |         83.8        |        83.5         |    41.8    |    CVPR'18   |
 |    MegDet    |          -          |          -          |      -     |    CVPR'18   |
-|    RFBNet    |     82.2 (07+12)    |          -          |      -     |    ECCV'18   |
+|    RFBNet    |         82.2        |          -          |      -     |    ECCV'18   |
 |  CornerNet   |          -          |          -          |    42.1    |    ECCV'18   |
