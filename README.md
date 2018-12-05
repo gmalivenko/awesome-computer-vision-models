@@ -49,6 +49,7 @@ It's the list with popular deep learning models related to classification and se
 ### Semantic segmentation
 - U-Net (['U-Net: Convolutional Networks for Biomedical Image Segmentation'](https://arxiv.org/pdf/1505.04597.pdf)) [2015]
 - DeconvNet (['Learning Deconvolution Network for Semantic Segmentation'](https://arxiv.org/pdf/1505.04366.pdf)) [2015]
+- ParseNet (['ParseNet: Looking Wider to See Better'](https://arxiv.org/abs/1506.04579)) [2015]
 - Piecewise (['Efficient piecewise training of deep structured models for semantic segmentation'](https://arxiv.org/abs/1504.01013)) [2015]
 - SegNet (['SegNet: A Deep Convolutional Encoder-Decoder Architecture for Image Segmentation'](https://arxiv.org/pdf/1511.00561.pdf)) [2016]
 - FCN (['Fully Convolutional Networks for Semantic Segmentation'](https://arxiv.org/pdf/1605.06211.pdf)) [2016]
@@ -85,6 +86,7 @@ It's the list with popular deep learning models related to classification and se
 |:-------------:|:-------------------:|:-------------------:|:----------------------:|:------------:|:----------------------:| 
 |   U-Net       |          ?          |          ?          |             ?          |       ?      |            ?           |
 |   DeconvNet   |          ?          |          ?          |           72.5         |       ?      |            ?           |
+|   ParseNet    |        40.4         |          ?          |           69.8         |       ?      |            ?           |
 |   Piecewise   |        43.3         |        71.6         |           78.0         |       ?      |            ?           |
 |   SegNet      |          ?          |        56.1         |             ?          |       ?      |            ?           |
 |   FCN         |        37.8         |        65.3         |           62.2         |     22.7     |          29.39         |
@@ -178,47 +180,47 @@ It's the list with popular deep learning models related to classification and se
 - [M2Det] M2Det: A Single-Shot Object Detector based on Multi-Level Feature Pyramid Network | Jun Wang, et al. | [AAAI' 19] |[`[pdf]`](https://arxiv.org/pdf/1811.04533.pdf) [2018]
 
 
-|   Detector   | VOC07 (mAP@IoU=0.5) | VOC12 (mAP@IoU=0.5) | COCO (mAP) | Published In |
-|:------------:|:-------------------:|:-------------------:|:----------:|:------------:| 
-|     R-CNN    |         58.5        |          -          |      -     |    CVPR'14   |
-|   OverFeat   |           -         |          -          |      -     |    ICLR'14   |
-|   MultiBox   |         29.0        |          -          |      -     |    CVPR'14   |
-|    SPP-Net   |         59.2        |          -          |      -     |    ECCV'14   |
-|    MR-CNN    |         78.2        |        73.9         |      -     |    ICCV'15   |
-| AttentionNet |           -         |          -          |      -     |    ICCV'15   |
-|  Fast R-CNN  |         70.0        |        68.4         |      -     |    ICCV'15   |
-| Faster R-CNN |         73.2        |        70.4         |    36.8    |    NIPS'15   |
-|    YOLO v1   |         66.4        |        57.9         |      -     |    CVPR'16   |
-|     G-CNN    |         66.8        |        66.4         |      -     |    CVPR'16   |
-|     AZNet    |         70.4        |          -          |    22.3    |    CVPR'16   |
-|      ION     |         80.1        |        77.9         |    33.1    |    CVPR'16   |
-|   HyperNet   |         76.3        |        71.4         |      -     |    CVPR'16   |
-|     OHEM     |         78.9        |        76.3         |    22.4    |    CVPR'16   |
-|      MPN     |           -         |          -          |    33.2    |    BMVC'16   |
-|      SSD     |         76.8        |        74.9         |    31.2    |    ECCV'16   |
-|    GBDNet    |         77.2        |          -          |    27.0    |    ECCV'16   |
-|      CPF     |         76.4        |        72.6         |      -     |    ECCV'16   |
-|    MS-CNN    |           -         |          -          |      -     |    ECCV'16   |
-|     R-FCN    |         79.5        |        77.6         |    29.9    |    NIPS'16   |
-|    PVANET    |          -          |          -          |      -     |   NIPSW'16   |
-|  DeepID-Net  |         69.0        |          -          |      -     |    PAMI'16   |
-|      NoC     |         71.6        |        68.8         |    27.2    |   TPAMI'16   |
-|     DSSD     |         81.5        |        80.0         |      -     |   arXiv'17   |
-|      TDM     |          -          |          -          |    37.3    |    CVPR'17   |
-|      FPN     |          -          |          -          |    36.2    |    CVPR'17   |
-|    YOLO v2   |         78.6        |        73.4         |    21.6    |    CVPR'17   |
-|      RON     |         77.6        |        75.4         |      -     |    CVPR'17   |
-|      DCN     |          -          |          -          |      -     |    ICCV'17   |
-|     DeNet    |         77.1        |        73.9         |    33.8    |    ICCV'17   |
-|   CoupleNet  |         82.7        |        80.4         |    34.4    |    ICCV'17   |
-|   RetinaNet  |          -          |          -          |    39.1    |    ICCV'17   |
-|  Mask R-CNN  |          -          |          -          |    39.8    |    ICCV'17   |
-|     DSOD     |         77.7        |        76.3         |      -     |    ICCV'17   |
-|      SMN     |         70.0        |          -          |      -     |    ICCV'17   |
-|    YOLO v3   |          -          |          -          |    33.0    |   Arxiv'18   |
-|      SIN     |         76.0        |        73.1         |    23.2    |    CVPR'18   |
-|     STDN     |         80.9        |          -          |      -     |    CVPR'18   |
-|   RefineDet  |         83.8        |        83.5         |    41.8    |    CVPR'18   |
-|    MegDet    |          -          |          -          |      -     |    CVPR'18   |
-|    RFBNet    |         82.2        |          -          |      -     |    ECCV'18   |
-|  CornerNet   |          -          |          -          |    42.1    |    ECCV'18   |
+|   Detector   | VOC07 (mAP@IoU=0.5) | VOC12 (mAP@IoU=0.5) | COCO (mAP) |
+|:------------:|:-------------------:|:-------------------:|:----------:|
+|     R-CNN    |         58.5        |          -          |      -     |
+|   OverFeat   |           -         |          -          |      -     |
+|   MultiBox   |         29.0        |          -          |      -     |
+|    SPP-Net   |         59.2        |          -          |      -     |
+|    MR-CNN    |         78.2        |        73.9         |      -     |
+| AttentionNet |           -         |          -          |      -     |
+|  Fast R-CNN  |         70.0        |        68.4         |      -     |
+| Faster R-CNN |         73.2        |        70.4         |    36.8    |
+|    YOLO v1   |         66.4        |        57.9         |      -     |
+|     G-CNN    |         66.8        |        66.4         |      -     |
+|     AZNet    |         70.4        |          -          |    22.3    |
+|      ION     |         80.1        |        77.9         |    33.1    |
+|   HyperNet   |         76.3        |        71.4         |      -     |
+|     OHEM     |         78.9        |        76.3         |    22.4    |
+|      MPN     |           -         |          -          |    33.2    |
+|      SSD     |         76.8        |        74.9         |    31.2    |
+|    GBDNet    |         77.2        |          -          |    27.0    |
+|      CPF     |         76.4        |        72.6         |      -     |
+|    MS-CNN    |           -         |          -          |      -     |
+|     R-FCN    |         79.5        |        77.6         |    29.9    |
+|    PVANET    |          -          |          -          |      -     |
+|  DeepID-Net  |         69.0        |          -          |      -     |
+|      NoC     |         71.6        |        68.8         |    27.2    |
+|     DSSD     |         81.5        |        80.0         |      -     |
+|      TDM     |          -          |          -          |    37.3    |
+|      FPN     |          -          |          -          |    36.2    |
+|    YOLO v2   |         78.6        |        73.4         |    21.6    |
+|      RON     |         77.6        |        75.4         |      -     |
+|      DCN     |          -          |          -          |      -     |
+|     DeNet    |         77.1        |        73.9         |    33.8    |
+|   CoupleNet  |         82.7        |        80.4         |    34.4    |
+|   RetinaNet  |          -          |          -          |    39.1    |
+|  Mask R-CNN  |          -          |          -          |    39.8    |
+|     DSOD     |         77.7        |        76.3         |      -     |
+|      SMN     |         70.0        |          -          |      -     |
+|    YOLO v3   |          -          |          -          |    33.0    |
+|      SIN     |         76.0        |        73.1         |    23.2    |
+|     STDN     |         80.9        |          -          |      -     |
+|   RefineDet  |         83.8        |        83.5         |    41.8    |
+|    MegDet    |          -          |          -          |      -     |
+|    RFBNet    |         82.2        |          -          |      -     |
+|  CornerNet   |          -          |          -          |    42.1    |
