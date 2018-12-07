@@ -45,8 +45,22 @@ It's the list with popular deep learning models related to classification and se
 
 |         Model      | Number of parameters |  Top-1 Error     | Top-5 Error    | 
 |:------------------:|:--------------------:|:----------------:|:--------------:|
-|   BAM-ResNet-50    |        25.92M        |        22.66     |      6.31      |
-|   CBAM-ResNet-50   |        25.92M        |        22.66     |      6.31      |
+| Inception-ResNet-v2|        55.9M         |        19.9      |      4.9       |
+|   Inception-v4     |        42.6M         |        20.0      |      5.0       |
+| Very Deep PolyNet  |          ?           |        18.71     |      4.25      |
+|   DarkNet Ref      |         7.3M         |        38.09     |     16.71      |
+|   Attention-92     |        51.3M         |        19.5      |      4.8       |
+| CondenseNet (G=C=8)|         4.8M         |        26.2      |      8.3       |
+|   DRN-A-50         |        25.6M         |        22.94     |      6.57      |
+|   DPN-131          |        79.3M         |        18.55     |      4.16      |
+| ShuffleNet 2×(g=3) |          ?           |        26.3      |       ?        |
+|   DiracNet-34      |        21.8M         |        27.79     |      9.34      |
+|   SENet-154        |       115.2M         |        18.84     |      4.65      |
+|   MobileNet        |         4.2M         |        29.4      |     10.5       |
+|   NASNet-A         |         5.3M         |        26.0      |      8.7       |
+|AirNet50-1x64d (r=2)|        27.43M        |        22.48     |      6.21      |
+|   BAM-ResNet-50    |        25.92M        |        23.68     |      6.96      |
+|   CBAM-ResNet-50   |        28.1M         |        23.02     |      6.38      |
 |   SqueezeResNet    |         1.23M        |        39.83     |     17.84      |
 |   2.0-SqNxt-23v5   |         3.2M         |        32.56     |     11.8       |
 | ShuffleNet v2 2x SE|         7.6M         |        24.6      |       ?        |
