@@ -38,10 +38,26 @@ It's the list with popular deep learning models related to classification and se
 - FD-MobileNet (['FD-MobileNet: Improved MobileNet with A Fast Downsampling Strategy'](https://arxiv.org/abs/1802.03750)) [2018]
 - MobileNetV2 (['MobileNetV2: Inverted Residuals and Linear Bottlenecks'](https://arxiv.org/abs/1801.04381)) [2018]
 - IGCV3 (['IGCV3: Interleaved Low-Rank Group Convolutions for Efficient Deep Neural Networks'](https://arxiv.org/abs/1806.00178)) [2018]
-- MnasNet (['MnasNet: Platform-Aware Neural Architecture Search for Mobile'](https://arxiv.org/abs/1807.11626)) [2018]
 - DARTS (['DARTS: Differentiable Architecture Search'](https://arxiv.org/abs/1806.09055)) [2018]
 - PNASNet (['Progressive Neural Architecture Search'](https://arxiv.org/abs/1712.00559)) [2018]
 - Amoeba (['Regularized Evolution for Image Classifier Architecture Search'](https://arxiv.org/abs/1802.01548)) [2018]
+- MnasNet (['MnasNet: Platform-Aware Neural Architecture Search for Mobile'](https://arxiv.org/abs/1807.11626)) [2018]
+
+|         Model      | Number of parameters |  Top-1 Error     | Top-5 Error    | 
+|:------------------:|:--------------------:|:----------------:|:--------------:|
+|   BAM-ResNet-50    |        25.92M        |        22.66     |      6.31      |
+|   CBAM-ResNet-50   |        25.92M        |        22.66     |      6.31      |
+|   SqueezeResNet    |         1.23M        |        39.83     |     17.84      |
+|   2.0-SqNxt-23v5   |         3.2M         |        32.56     |     11.8       |
+| ShuffleNet v2 2x SE|         7.6M         |        24.6      |       ?        |
+| 456-MENet-24×1(g=3)|         5.3M         |        28.4      |      9.8       |
+|   FD-MobileNet 1x  |         2.9M         |        34.7      |       ?        |
+|   MobileNetV2      |         3.4M         |        28.0      |       ?        |
+|   IGCV3            |         3.5M         |        28.22     |      9.54      |
+|   DARTS            |         4.9M         |        26.9      |      9.0       |
+|   PNASNet-5        |         5.1M         |        25.8      |      8.1       |
+|   AmoebaNet-C      |         5.1M         |        24.3      |      7.6       |
+|   MnasNet-92 (+SE) |         5.1M         |        23.87     |      7.15      |
 
 
 ### Segmentation models
