@@ -45,6 +45,9 @@ It's the list with popular deep learning models related to classification and se
 
 |         Model      | Number of parameters |  Top-1 Error     | Top-5 Error    | 
 |:------------------:|:--------------------:|:----------------:|:--------------:|
+|   ResNeXt-101      |        83.5M         |        20.4      |      5.3       |
+| WRN-50-2-bottleneck|        68.9M         |        21.9      |      6.03      |
+|   Xception         |          ?           |        21.0      |      5.5       |
 | Inception-ResNet-v2|        55.9M         |        19.9      |      4.9       |
 |   Inception-v4     |        42.6M         |        20.0      |      5.0       |
 | Very Deep PolyNet  |          ?           |        18.71     |      4.25      |
