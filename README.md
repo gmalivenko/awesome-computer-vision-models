@@ -43,38 +43,46 @@ It's the list with popular deep learning models related to classification and se
 - Amoeba (['Regularized Evolution for Image Classifier Architecture Search'](https://arxiv.org/abs/1802.01548)) [2018]
 - MnasNet (['MnasNet: Platform-Aware Neural Architecture Search for Mobile'](https://arxiv.org/abs/1807.11626)) [2018]
 
-|         Model      | Number of parameters |  Top-1 Error     | Top-5 Error    | 
-|:------------------:|:--------------------:|:----------------:|:--------------:|
-|   ResNeXt-101      |        83.5M         |        20.4      |      5.3       |
-| WRN-50-2-bottleneck|        68.9M         |        21.9      |      6.03      |
-|   Xception         |          ?           |        21.0      |      5.5       |
-| Inception-ResNet-v2|        55.9M         |        19.9      |      4.9       |
-|   Inception-v4     |        42.6M         |        20.0      |      5.0       |
-| Very Deep PolyNet  |          ?           |        18.71     |      4.25      |
-|   DarkNet Ref      |         7.3M         |        38.09     |     16.71      |
-|   Attention-92     |        51.3M         |        19.5      |      4.8       |
-| CondenseNet (G=C=8)|         4.8M         |        26.2      |      8.3       |
-|   DRN-A-50         |        25.6M         |        22.94     |      6.57      |
-|   DPN-131          |        79.3M         |        18.55     |      4.16      |
-| ShuffleNet 2×(g=3) |          ?           |        26.3      |       ?        |
-|   DiracNet-34      |        21.8M         |        27.79     |      9.34      |
-|   SENet-154        |       115.2M         |        18.84     |      4.65      |
-|   MobileNet        |         4.2M         |        29.4      |     10.5       |
-|   NASNet-A         |         5.3M         |        26.0      |      8.7       |
-|AirNet50-1x64d (r=2)|        27.43M        |        22.48     |      6.21      |
-|   BAM-ResNet-50    |        25.92M        |        23.68     |      6.96      |
-|   CBAM-ResNet-50   |        28.1M         |        23.02     |      6.38      |
-|   SqueezeResNet    |         1.23M        |        39.83     |     17.84      |
-|   2.0-SqNxt-23v5   |         3.2M         |        32.56     |     11.8       |
-| ShuffleNet v2 2x SE|         7.6M         |        24.6      |       ?        |
-| 456-MENet-24×1(g=3)|         5.3M         |        28.4      |      9.8       |
-|   FD-MobileNet 1x  |         2.9M         |        34.7      |       ?        |
-|   MobileNetV2      |         3.4M         |        28.0      |       ?        |
-|   IGCV3            |         3.5M         |        28.22     |      9.54      |
-|   DARTS            |         4.9M         |        26.9      |      9.0       |
-|   PNASNet-5        |         5.1M         |        25.8      |      8.1       |
-|   AmoebaNet-C      |         5.1M         |        24.3      |      7.6       |
-|   MnasNet-92 (+SE) |         5.1M         |        23.87     |      7.15      |
+|         Model       | Number of parameters |  Top-1 Error     | Top-5 Error    | 
+|:-------------------:|:--------------------:|:----------------:|:--------------:|
+|    AlexNet          |        61.1M         |        44.12     |     21.26      |
+|    VGG-16           |       138.3M         |        26.78     |      8.69      |
+|    ResNet-50        |        25.5M         |        20.74     |      5.25      |
+|    Inception v3     |        23.8M         |        21.2      |      5.6       |
+|    PreResNet-50     |        25.5M         |        23.39     |      6.68      |
+|    DenseNet-121     |         7.9M         |        25.0      |      7.71      |
+|PyramidNet-200(a=300)|        62.1M         |        19.5      |      4.8       |
+|PyramidNet-200(a=450)|       116.4M         |        19.2      |      4.7       |
+|    ResNeXt-101      |        83.5M         |        20.4      |      5.3       |
+|  WRN-50-2-bottleneck|        68.9M         |        21.9      |      6.03      |
+|    Xception         |          ?           |        21.0      |      5.5       |
+|  Inception-ResNet-v2|        55.9M         |        19.9      |      4.9       |
+|    Inception-v4     |        42.6M         |        20.0      |      5.0       |
+|  Very Deep PolyNet  |          ?           |        18.71     |      4.25      |
+|    DarkNet Ref      |         7.3M         |        38.09     |     16.71      |
+|    Attention-92     |        51.3M         |        19.5      |      4.8       |
+|  CondenseNet (G=C=8)|         4.8M         |        26.2      |      8.3       |
+|    DRN-A-50         |        25.6M         |        22.94     |      6.57      |
+|    DPN-131          |        79.3M         |        18.55     |      4.16      |
+|  ShuffleNet 2×(g=3) |          ?           |        26.3      |       ?        |
+|    DiracNet-34      |        21.8M         |        27.79     |      9.34      |
+|    SENet-154        |       115.2M         |        18.84     |      4.65      |
+|    MobileNet        |         4.2M         |        29.4      |     10.5       |
+|    NASNet-A         |         5.3M         |        26.0      |      8.7       |
+| AirNet50-1x64d (r=2)|        27.43M        |        22.48     |      6.21      |
+|    BAM-ResNet-50    |        25.92M        |        23.68     |      6.96      |
+|    CBAM-ResNet-50   |        28.1M         |        23.02     |      6.38      |
+|    SqueezeResNet    |         1.23M        |        39.83     |     17.84      |
+|    2.0-SqNxt-23v5   |         3.2M         |        32.56     |     11.8       |
+|  ShuffleNet v2 2x SE|         7.6M         |        24.6      |       ?        |
+|  456-MENet-24×1(g=3)|         5.3M         |        28.4      |      9.8       |
+|    FD-MobileNet 1x  |         2.9M         |        34.7      |       ?        |
+|    MobileNetV2      |         3.4M         |        28.0      |       ?        |
+|    IGCV3            |         3.5M         |        28.22     |      9.54      |
+|    DARTS            |         4.9M         |        26.9      |      9.0       |
+|    PNASNet-5        |         5.1M         |        25.8      |      8.1       |
+|    AmoebaNet-C      |         5.1M         |        24.3      |      7.6       |
+|    MnasNet-92 (+SE) |         5.1M         |        23.87     |      7.15      |
 
 
 ### Segmentation models
