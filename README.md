@@ -42,12 +42,13 @@ It's the list with popular deep learning models related to classification and se
 - PNASNet (['Progressive Neural Architecture Search'](https://arxiv.org/abs/1712.00559)) [2018]
 - Amoeba (['Regularized Evolution for Image Classifier Architecture Search'](https://arxiv.org/abs/1802.01548)) [2018]
 - MnasNet (['MnasNet: Platform-Aware Neural Architecture Search for Mobile'](https://arxiv.org/abs/1807.11626)) [2018]
+- IBN-Net (['Two at Once: Enhancing Learning andGeneralization Capacities via IBN-Net'](https://arxiv.org/abs/1807.09441)) [2018]
 
 |         Model       | Number of parameters |  Top-1 Error     | Top-5 Error    | 
 |:-------------------:|:--------------------:|:----------------:|:--------------:|
 |    AlexNet          |        61.1M         |        44.12     |     21.26      |
 |    VGG-16           |       138.3M         |        26.78     |      8.69      |
-|    ResNet-50        |        25.5M         |        20.74     |      5.25      |
+|    ResNet-50        |        25.5M         |        23.50     |      6.87      |
 |    Inception v3     |        23.8M         |        21.2      |      5.6       |
 |    PreResNet-50     |        25.5M         |        23.39     |      6.68      |
 |    DenseNet-121     |         7.9M         |        25.0      |      7.71      |
@@ -83,6 +84,7 @@ It's the list with popular deep learning models related to classification and se
 |    PNASNet-5        |         5.1M         |        25.8      |      8.1       |
 |    AmoebaNet-C      |         5.1M         |        24.3      |      7.6       |
 |    MnasNet-92 (+SE) |         5.1M         |        23.87     |      7.15      |
+|    IBN-Net50-a      |          ?           |        22.54     |      6.32      |
 
 
 ### Segmentation models
