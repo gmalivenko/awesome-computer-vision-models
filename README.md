@@ -124,6 +124,8 @@ It's the list with popular deep learning models related to classification and se
 - ENCNet (['Context Encoding for Semantic Segmentation'](https://arxiv.org/abs/1803.08904)) [2018]
 - ShelfNet (['ShelfNet for Real-time Semantic Segmentation'](https://arxiv.org/pdf/1811.11254.pdf)) [2018]
 - LadderNet (['LADDERNET: MULTI-PATH NETWORKS BASED ON U-NET FOR MEDICAL IMAGE SEGMENTATION'](https://arxiv.org/pdf/1810.07810.pdf)) [2018]
+- ССС (['Concentrated-Comprehensive Convolutions for lightweight semantic segmentation'](https://arxiv.org/pdf/1812.04920v1.pdf)) [2018]
+
 
 |    Model      |   PASCAL-Context    |  Cityscapes (mIOU)  | PASCAL VOC 2012 (mIOU) |  COCO Stuff  |    ADE20K VAL (mIOU)   |
 |:-------------:|:-------------------:|:-------------------:|:----------------------:|:------------:|:----------------------:| 
@@ -160,6 +162,7 @@ It's the list with popular deep learning models related to classification and se
 |   ENCNet      |        51.7         |        75.8         |           85.9         |       ?      |          44.65         |
 |   ShelfNet    |        48.4         |        75.8         |           84.2         |       ?      |            ?           |
 |   LadderNet   |          ?          |          ?          |             ?          |       ?      |            ?           |
+|   CCC-ERFnet  |          ?          |        69.01        |             ?          |       ?      |            ?           |
 
 
 ### Detection models
