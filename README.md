@@ -43,6 +43,8 @@ It's the list with popular deep learning models related to classification and se
 - Amoeba (['Regularized Evolution for Image Classifier Architecture Search'](https://arxiv.org/abs/1802.01548)) [2018]
 - MnasNet (['MnasNet: Platform-Aware Neural Architecture Search for Mobile'](https://arxiv.org/abs/1807.11626)) [2018]
 - IBN-Net (['Two at Once: Enhancing Learning andGeneralization Capacities via IBN-Net'](https://arxiv.org/abs/1807.09441)) [2018]
+- MarginNet (['Large Margin Deep Networks for Classification'](http://papers.nips.cc/paper/7364-large-margin-deep-networks-for-classification.pdf)) [2018]
+- A^2 Nets (['A^2-Nets: Double Attention Networks'](http://papers.nips.cc/paper/7318-a2-nets-double-attention-networks.pdf)) [2018]
 
 |         Model       | Number of parameters |  Top-1 Error     | Top-5 Error    | 
 |:-------------------:|:--------------------:|:----------------:|:--------------:|
@@ -85,6 +87,8 @@ It's the list with popular deep learning models related to classification and se
 |    AmoebaNet-C      |         5.1M         |        24.3      |      7.6       |
 |    MnasNet-92 (+SE) |         5.1M         |        23.87     |      7.15      |
 |    IBN-Net50-a      |          ?           |        22.54     |      6.32      |
+|    MarginNet        |          ?           |        22.0      |       ?        |
+|    A^2 Net          |          ?           |        23.0      |      6.5       |
 
 
 ### Segmentation models
