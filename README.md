@@ -45,6 +45,7 @@ It's the list with popular deep learning models related to classification and se
 - IBN-Net (['Two at Once: Enhancing Learning andGeneralization Capacities via IBN-Net'](https://arxiv.org/abs/1807.09441)) [2018]
 - MarginNet (['Large Margin Deep Networks for Classification'](http://papers.nips.cc/paper/7364-large-margin-deep-networks-for-classification.pdf)) [2018]
 - A^2 Nets (['A^2-Nets: Double Attention Networks'](http://papers.nips.cc/paper/7318-a2-nets-double-attention-networks.pdf)) [2018]
+- FishNet (['FishNet: A Versatile Backbone for Image, Region, and Pixel Level Prediction'](http://papers.nips.cc/paper/7356-fishnet-a-versatile-backbone-for-image-region-and-pixel-level-prediction.pdf)) [2018]
 
 |         Model       | Number of parameters |  Top-1 Error     | Top-5 Error    | 
 |:-------------------:|:--------------------:|:----------------:|:--------------:|
@@ -89,6 +90,7 @@ It's the list with popular deep learning models related to classification and se
 |    IBN-Net50-a      |          ?           |        22.54     |      6.32      |
 |    MarginNet        |          ?           |        22.0      |       ?        |
 |    A^2 Net          |          ?           |        23.0      |      6.5       |
+|    FishNeXt-150     |        26.2M         |        21.5      |       ?        |
 
 
 ### Segmentation models
