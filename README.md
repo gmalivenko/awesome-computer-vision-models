@@ -136,7 +136,7 @@ It's the list with popular deep learning models related to classification and se
 - DifNet (['DifNet: Semantic Segmentation by Diffusion Networks'](http://papers.nips.cc/paper/7435-difnet-semantic-segmentation-by-diffusion-networks.pdf)) [2018]
 - BiSeNet (['BiSeNet: Bilateral Segmentation Network for Real-time Semantic Segmentation'](https://arxiv.org/pdf/1808.00897.pdf)) [2018]
 - ESPNet (['ESPNet: Efficient Spatial Pyramid of Dilated Convolutions for Semantic Segmentation'](https://arxiv.org/pdf/1803.06815.pdf)) [2018]
-
+- SPADE (['Semantic Image Synthesis with Spatially-Adaptive Normalization'](https://arxiv.org/pdf/1903.07291.pdf)) [2019]
 
 |    Model      |   PASCAL-Context    |  Cityscapes (mIOU)  | PASCAL VOC 2012 (mIOU) |  COCO Stuff  |    ADE20K VAL (mIOU)   |
 |:-------------:|:-------------------:|:-------------------:|:----------------------:|:------------:|:----------------------:| 
@@ -177,6 +177,7 @@ It's the list with popular deep learning models related to classification and se
 |   DifNet-101  |        45.1         |          ?          |           73.2         |       ?      |            ?           |
 | BiSeNet(Res18)|          ?          |          ?          |           74.7         |     28.1     |            ?           |
 |   ESPNet      |          ?          |          ?          |           63.01        |       ?      |            ?           |
+|   SPADE       |          ?          |        62.3         |           63.01        |     37.4     |          38.5          |
 
 
 ### Detection models
