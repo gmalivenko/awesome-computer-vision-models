@@ -177,7 +177,7 @@ It's the list with popular deep learning models related to classification and se
 |   DifNet-101  |        45.1         |          ?          |           73.2         |       ?      |            ?           |
 | BiSeNet(Res18)|          ?          |          ?          |           74.7         |     28.1     |            ?           |
 |   ESPNet      |          ?          |          ?          |           63.01        |       ?      |            ?           |
-|   SPADE       |          ?          |        62.3         |           63.01        |     37.4     |          38.5          |
+|   SPADE       |          ?          |        62.3         |             ?          |     37.4     |          38.5          |
 
 
 ### Detection models
