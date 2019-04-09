@@ -240,6 +240,8 @@ It's the list with popular deep learning models related to classification and se
 - [MetaAnchor] MetaAnchor: Learning to Detect Objects with Customized Anchors | Tong Yang, et al. | [NIPS' 18] |[`[pdf]`](http://papers.nips.cc/paper/7315-metaanchor-learning-to-detect-objects-with-customized-anchors.pdf) [2018]
 - [M2Det] M2Det: A Single-Shot Object Detector based on Multi-Level Feature Pyramid Network | Jun Wang, et al. | [AAAI' 19] |[`[pdf]`](https://arxiv.org/pdf/1811.04533.pdf) [2018]
 - [Libra RetinaNet] Libra R-CNN: Towards Balanced Learning for Object Detection | Jiangmiao Pang, et al. | [`[pdf]`](https://arxiv.org/pdf/1904.02701v1.pdf) [2019]
+- [YOLACT-700] YOLACT Real-time Instance Segmentation | [`[pdf]`](https://arxiv.org/pdf/1904.02689v1.pdf) [2019]
+
 
 
 |   Detector   | VOC07 (mAP@IoU=0.5) | VOC12 (mAP@IoU=0.5) | COCO (mAP) |
@@ -287,3 +289,5 @@ It's the list with popular deep learning models related to classification and se
 |    RFBNet    |         82.2        |          -          |      -     |
 |  CornerNet   |          -          |          -          |    42.1    |
 |LibraRetinaNet|          -          |          -          |    43.0    |
+|  YOLACT-700  |          -          |          -          |    31.2    |
+
