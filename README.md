@@ -48,6 +48,7 @@ It's the list with popular deep learning models related to classification and se
 - FishNet (['FishNet: A Versatile Backbone for Image, Region, and Pixel Level Prediction'](http://papers.nips.cc/paper/7356-fishnet-a-versatile-backbone-for-image-region-and-pixel-level-prediction.pdf)) [2018]
 - Shape-ResNet (['IMAGENET-TRAINED CNNS   ARE   BIASED   TOWARDS TEXTURE; INCREASING SHAPE BIAS IMPROVES ACCURACY AND ROBUSTNESS'](https://arxiv.org/pdf/1811.12231v2.pdf))[2019]
 - Shift-Invariant-ResNet (['Making Convolutional Networks Shift-Invariant Again'](https://arxiv.org/pdf/1904.11486.pdf))[2019]
+- SimCNN (['Greedy Layerwise Learning Can Scale to ImageNet'](https://arxiv.org/pdf/1812.11446.pdf))[2019]
 
 |         Model       | Number of parameters |  Top-1 Error     | Top-5 Error    | 
 |:-------------------:|:--------------------:|:----------------:|:--------------:|
@@ -95,6 +96,7 @@ It's the list with popular deep learning models related to classification and se
 |    FishNeXt-150     |        26.2M         |        21.5      |       ?        |
 |    Shape-ResNet     |        25.5M         |        23.28     |      6.72      |
 |    ResNet-50-Bin-5  |          ?           |        23.0      |       ?        |
+|    SimCNN(k=3 train)|          ?           |        28.4      |     10.2       |
 
 
 ### Segmentation models
