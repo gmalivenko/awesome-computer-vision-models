@@ -143,6 +143,9 @@ It's the list with popular deep learning models related to classification and se
 - BiSeNet (['BiSeNet: Bilateral Segmentation Network for Real-time Semantic Segmentation'](https://arxiv.org/pdf/1808.00897.pdf)) [2018]
 - ESPNet (['ESPNet: Efficient Spatial Pyramid of Dilated Convolutions for Semantic Segmentation'](https://arxiv.org/pdf/1803.06815.pdf)) [2018]
 - SPADE (['Semantic Image Synthesis with Spatially-Adaptive Normalization'](https://arxiv.org/pdf/1903.07291.pdf)) [2019]
+- SeamlessSeg (['Seamless Scene Segmentation'](https://arxiv.org/pdf/1905.01220v1.pdf)) [2019]
+
+
 
 |    Model      |   PASCAL-Context    |  Cityscapes (mIOU)  | PASCAL VOC 2012 (mIOU) |  COCO Stuff  |    ADE20K VAL (mIOU)   |
 |:-------------:|:-------------------:|:-------------------:|:----------------------:|:------------:|:----------------------:| 
@@ -184,6 +187,7 @@ It's the list with popular deep learning models related to classification and se
 | BiSeNet(Res18)|          ?          |          ?          |           74.7         |     28.1     |            ?           |
 |   ESPNet      |          ?          |          ?          |           63.01        |       ?      |            ?           |
 |   SPADE       |          ?          |        62.3         |             ?          |     37.4     |          38.5          |
+|   SeamlessSeg |          ?          |        77.5         |             ?          |       ?      |            ?           |
 
 
 ### Detection models
