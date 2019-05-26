@@ -50,6 +50,9 @@ It's the list with popular deep learning models related to classification and se
 - Shift-Invariant-ResNet (['Making Convolutional Networks Shift-Invariant Again'](https://arxiv.org/pdf/1904.11486.pdf))[2019]
 - SimCNN (['Greedy Layerwise Learning Can Scale to ImageNet'](https://arxiv.org/pdf/1812.11446.pdf))[2019]
 - SKNet (['Selective Kernel Networks'](https://arxiv.org/pdf/1903.06586.pdf))[2019]
+- SRM (['SRM : A Style-based Recalibration Module for Convolutional Neural Networks'](https://arxiv.org/pdf/1903.10829.pdf))[2019]
+
+
 
 |         Model       | Number of parameters |  Top-1 Error     | Top-5 Error    | 
 |:-------------------:|:--------------------:|:----------------:|:--------------:|
@@ -99,6 +102,7 @@ It's the list with popular deep learning models related to classification and se
 |    ResNet-50-Bin-5  |          ?           |        23.0      |       ?        |
 |    SimCNN(k=3 train)|          ?           |        28.4      |     10.2       |
 |    SKNet-50         |        27.5M         |        20.79     |       ?        |
+|    SRM-ResNet-50    |        25.62M        |        22.87     |      6.49      |
 
 
 ### Segmentation models
