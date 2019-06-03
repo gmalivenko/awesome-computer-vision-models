@@ -1,10 +1,8 @@
 # awesome-computer-vision-models [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
 
-It's the list with popular deep learning models related to classification and segmentation task
+This is the list with popular classification and segmentation models related with corresponding evaluation metrics.
 
-## Papers
-
-### Classification models
+## Classification models
 
 - AlexNet (['One weird trick for parallelizing convolutional neural networks'](https://arxiv.org/abs/1404.5997)) [2014]
 - VGG/BN-VGG (['Very Deep Convolutional Networks for Large-Scale Image Recognition'](https://arxiv.org/abs/1409.1556)) [2014]
@@ -108,7 +106,7 @@ It's the list with popular deep learning models related to classification and se
 
 
 
-### Segmentation models
+## Segmentation models
 
 ### Semantic segmentation
 - U-Net (['U-Net: Convolutional Networks for Biomedical Image Segmentation'](https://arxiv.org/pdf/1505.04597.pdf)) [2015]
@@ -197,7 +195,7 @@ It's the list with popular deep learning models related to classification and se
 |   SeamlessSeg |          ?          |        77.5         |             ?          |       ?      |            ?           |
 
 
-### Detection models
+## Detection models
 
 - [R-CNN] Rich feature hierarchies for accurate object detection and semantic segmentation | Ross Girshick, Jeff Donahue, Trevor Darrell, Jitendra Malik | [CVPR' 14] |[`[pdf]`](https://arxiv.org/pdf/1311.2524.pdf) [`[official code - caffe]`](https://github.com/rbgirshick/rcnn) [2014]
 - [OverFeat] OverFeat: Integrated Recognition, Localization and Detection using Convolutional Networks | Pierre Sermanet, et al. | [ICLR' 14] |[`[pdf]`](https://arxiv.org/pdf/1312.6229.pdf) [`[official code - torch]`](https://github.com/sermanet/OverFeat) [2014]
