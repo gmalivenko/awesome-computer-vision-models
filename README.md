@@ -50,7 +50,7 @@ This is the list with popular classification and segmentation models related wit
 - SKNet (['Selective Kernel Networks'](https://arxiv.org/pdf/1903.06586.pdf))[2019]
 - SRM (['SRM : A Style-based Recalibration Module for Convolutional Neural Networks'](https://arxiv.org/pdf/1903.10829.pdf))[2019]
 - EfficientNet (['EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks'](http://proceedings.mlr.press/v97/tan19a/tan19a.pdf))[2019]
-
+- MixNet (['MixNet: Mixed Depthwise Convolutional Kernels']( https://arxiv.org/abs/1907.09595))[2019]
 
 
 |         Model       | Number of parameters |  Top-1 Error     | Top-5 Error    | 
@@ -103,7 +103,7 @@ This is the list with popular classification and segmentation models related wit
 |    SKNet-50         |        27.5M         |        20.79     |       ?        |
 |    SRM-ResNet-50    |        25.62M        |        22.87     |      6.49      |
 |    EfficientNet-B7  |         66M          |        15.6      |      2.9       |
-
+|    MixNet-L         |        7.3M          |        11.1      |      5.8       |
 
 
 ## Segmentation models
