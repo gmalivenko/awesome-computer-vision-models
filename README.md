@@ -103,7 +103,7 @@ This is the list with popular classification and segmentation models related wit
 |    SKNet-50         |        27.5M         |        20.79     |       ?        |
 |    SRM-ResNet-50    |        25.62M        |        22.87     |      6.49      |
 |    EfficientNet-B7  |         66M          |        15.6      |      2.9       |
-|    MixNet-L         |        7.3M          |        11.1      |      5.8       |
+|    MixNet-L         |        7.3M          |        21.1      |      5.8       |
 
 
 ## Segmentation models
