@@ -258,6 +258,7 @@ This is the list with popular classification and segmentation models related wit
 - [M2Det] M2Det: A Single-Shot Object Detector based on Multi-Level Feature Pyramid Network | Jun Wang, et al. | [AAAI' 19] |[`[pdf]`](https://arxiv.org/pdf/1811.04533.pdf) [2018]
 - [Libra RetinaNet] Libra R-CNN: Towards Balanced Learning for Object Detection | Jiangmiao Pang, et al. | [`[pdf]`](https://arxiv.org/pdf/1904.02701v1.pdf) [2019]
 - [YOLACT-700] YOLACT Real-time Instance Segmentation | [`[pdf]`](https://arxiv.org/pdf/1904.02689v1.pdf) [2019]
+- [DetNASNet] DetNAS: Backbone Search for Object Detection | [`[pdf]`](https://arxiv.org/pdf/1903.10979v2.pdf) [2019]
 
 
 
@@ -307,4 +308,4 @@ This is the list with popular classification and segmentation models related wit
 |  CornerNet   |          -          |          -          |    42.1    |
 |LibraRetinaNet|          -          |          -          |    43.0    |
 |  YOLACT-700  |          -          |          -          |    31.2    |
-
+|DetNASNet(3.8)|          -          |          -          |    42.0    |
