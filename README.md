@@ -92,7 +92,7 @@ You can check some of the models using [tensorflow.js demo application](https://
 |    SENet-16         |     31,366,168       |     5,081.30M   |        25.65     |      8.20      |    [Try live](https://nerox8664.github.io/cls/#/senet14)       |
 |    SENet-154        |    115,088,984       |    20,745.78M   |        18.62     |      4.61      |                              X                                 |
 |  MobileNet x1.0     |      4,231,976       |       579.80M   |        26.61     |      8.95      |    [Try live](https://nerox8664.github.io/cls/#/mobilenet_w1)  |
-|  NASNet-A 4@1056    |      5,289,978       |       584.90M   |        25.68     |      8.16      |                              X                                 |
+|  NASNet-A 4@1056    |      5,289,978       |       584.90M   |        25.68     |      8.16      |    [Try live](https://nerox8664.github.io/cls/#/nasnet_4a1056) |
 |  NASNet-A 6@4032    |     88,753,150       |    23,976.44M   |        18.14     |      4.21      |                              X                                 |
 |    DLA-34           |     15,742,104       |     3,071.37M   |        25.36     |      7.94      |    [Try live](https://nerox8664.github.io/cls/#/dla34)         |
 | AirNet50-1x64d (r=2)|        27.43M        |         ?       |        22.48     |      6.21      |                              X                                 |
