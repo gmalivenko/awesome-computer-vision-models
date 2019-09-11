@@ -1,6 +1,8 @@
 # awesome-computer-vision-models [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
 
 This is the list with popular classification and segmentation models related with corresponding evaluation metrics.
+You can check some of the models using [tensorflow.js demo application](https://nerox8664.github.io/cls).
+
 
 ## Classification models
 
@@ -26,6 +28,7 @@ This is the list with popular classification and segmentation models related wit
 - SENet/SE-ResNet/SE-PreResNet/SE-ResNeXt (['Squeeze-and-Excitation Networks'](https://arxiv.org/abs/1709.01507)) [2017]
 - MobileNet (['MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications'](https://arxiv.org/abs/1704.04861)) [2017]
 - NASNet (['Learning Transferable Architectures for Scalable Image Recognition'](https://arxiv.org/abs/1707.07012)) [2017]
+- DLA (['Deep Layer Aggregation'](https://arxiv.org/abs/1707.06484)) [2017]
 - AirNet/AirNeXt (['Attention Inspiring Receptive-Fields Network for Learning Invariant Representations'](https://ieeexplore.ieee.org/document/8510896)) [2018]
 - BAM-ResNet (['BAM: Bottleneck Attention Module'](https://arxiv.org/abs/1807.06514)) [2018]
 - CBAM-ResNet (['CBAM: Convolutional Block Attention Module'](https://arxiv.org/abs/1807.06521)) [2018]
@@ -54,58 +57,74 @@ This is the list with popular classification and segmentation models related wit
 - MixNet (['MixNet: Mixed Depthwise Convolutional Kernels']( https://arxiv.org/abs/1907.09595))[2019]
 
 
-|         Model       | Number of parameters |  Top-1 Error     | Top-5 Error    | 
-|:-------------------:|:--------------------:|:----------------:|:--------------:|
-|    AlexNet          |        61.1M         |        44.12     |     21.26      |
-|    VGG-16           |       138.3M         |        26.78     |      8.69      |
-|    ResNet-50        |        25.5M         |        23.50     |      6.87      |
-|    Inception v3     |        23.8M         |        21.2      |      5.6       |
-|    PreResNet-50     |        25.5M         |        23.39     |      6.68      |
-|    DenseNet-121     |         7.9M         |        25.0      |      7.71      |
-|PyramidNet-200(a=300)|        62.1M         |        19.5      |      4.8       |
-|PyramidNet-200(a=450)|       116.4M         |        19.2      |      4.7       |
-|    ResNeXt-101      |        83.5M         |        20.4      |      5.3       |
-|  WRN-50-2-bottleneck|        68.9M         |        21.9      |      6.03      |
-|    Xception         |          ?           |        21.0      |      5.5       |
-|  Inception-ResNet-v2|        55.9M         |        19.9      |      4.9       |
-|    Inception-v4     |        42.6M         |        20.0      |      5.0       |
-|  Very Deep PolyNet  |          ?           |        18.71     |      4.25      |
-|    DarkNet Ref      |         7.3M         |        38.09     |     16.71      |
-|    Attention-92     |        51.3M         |        19.5      |      4.8       |
-|  CondenseNet (G=C=8)|         4.8M         |        26.2      |      8.3       |
-|    DRN-A-50         |        25.6M         |        22.94     |      6.57      |
-|    DPN-131          |        79.3M         |        18.55     |      4.16      |
-|  ShuffleNet 2×(g=3) |          ?           |        26.3      |       ?        |
-|    DiracNet-34      |        21.8M         |        27.79     |      9.34      |
-|    SENet-154        |       115.2M         |        18.84     |      4.65      |
-|    MobileNet        |         4.2M         |        29.4      |     10.5       |
-|    NASNet-A         |         5.3M         |        26.0      |      8.7       |
-| AirNet50-1x64d (r=2)|        27.43M        |        22.48     |      6.21      |
-|    BAM-ResNet-50    |        25.92M        |        23.68     |      6.96      |
-|    CBAM-ResNet-50   |        28.1M         |        23.02     |      6.38      |
-|    SqueezeResNet    |         1.23M        |        39.83     |     17.84      |
-|    2.0-SqNxt-23v5   |         3.2M         |        32.56     |     11.8       |
-|  ShuffleNet v2 2x SE|         7.6M         |        24.6      |       ?        |
-|  456-MENet-24×1(g=3)|         5.3M         |        28.4      |      9.8       |
-|    FD-MobileNet 1x  |         2.9M         |        34.7      |       ?        |
-|    MobileNetV2      |         3.4M         |        28.0      |       ?        |
-|    IGCV3            |         3.5M         |        28.22     |      9.54      |
-|    DARTS            |         4.9M         |        26.9      |      9.0       |
-|    PNASNet-5        |         5.1M         |        25.8      |      8.1       |
-|    AmoebaNet-C      |         5.1M         |        24.3      |      7.6       |
-|    MnasNet-92 (+SE) |         5.1M         |        23.87     |      7.15      |
-|    IBN-Net50-a      |          ?           |        22.54     |      6.32      |
-|    MarginNet        |          ?           |        22.0      |       ?        |
-|    A^2 Net          |          ?           |        23.0      |      6.5       |
-|    FishNeXt-150     |        26.2M         |        21.5      |       ?        |
-|    Shape-ResNet     |        25.5M         |        23.28     |      6.72      |
-|    ResNet-50-Bin-5  |          ?           |        23.0      |       ?        |
-|    SimCNN(k=3 train)|          ?           |        28.4      |     10.2       |
-|    SKNet-50         |        27.5M         |        20.79     |       ?        |
-|    SRM-ResNet-50    |        25.62M        |        22.87     |      6.49      |
-|    EfficientNet-B7  |         66M          |        15.6      |      2.9       |
-|    ProxylessNAS     |          ?           |        24.9      |      7.5       |
-|    MixNet-L         |        7.3M          |        21.1      |      5.8       |
+|         Model       | Number of parameters |       FLOPS     |     Top-1 Error  |   Top-5 Error  |                             DEMO                               |
+|:-------------------:|:--------------------:|:---------------:|:----------------:|:--------------:|:--------------------------------------------------------------:|
+|    AlexNet          |        62.3M         |     1,132.33M   |        40.96     |     18.24      |                              X                                 |
+|    VGG-16           |       138.3M         |         ?       |        26.78     |      8.69      |                              X                                 |
+|    ResNet-10        |         5.5M         |       894.04M   |        34.69     |     14.36      |   [Try live](https://nerox8664.github.io/cls/#/resnet-10)      |
+|    ResNet-18        |        11.7M         |     1,820.41M   |        28.53     |      9.82      |   [Try live](https://nerox8664.github.io/cls/#/resnet-18)      |
+|    ResNet-34        |        21.8M         |     3,672.68M   |        24.84     |      7.80      |   [Try live](https://nerox8664.github.io/cls/#/resnet-34)      |
+|    ResNet-50        |        25.5M         |     3,877.95M   |        22.28     |      6.33      |   [Try live](https://nerox8664.github.io/cls/#/resnet-50)      |
+|    Inception v3     |        23.8M         |         ?       |        21.2      |      5.6       |                              X                                 |
+|    PreResNet-18     |        11.7M         |     1,820.56M   |        28.43     |      9.72      |   [Try live](https://nerox8664.github.io/cls/#/preresnet-18)   |
+|    PreResNet-34     |        21.8M         |     3,672.83M   |        24.89     |      7.74      |   [Try live](https://nerox8664.github.io/cls/#/preresnet-34)   |
+|    PreResNet-50     |        25.6M         |     3,875.44M   |        22.40     |      6.47      |   [Try live](https://nerox8664.github.io/cls/#/preresnet-50)   |
+|    DenseNet-121     |         8.0M         |     2,872.13M   |        23.48     |      7.04      |   [Try live](https://nerox8664.github.io/cls/#/densenet-121)   |
+|    DenseNet-161     |        28.7M         |     7,793.16M   |        22.86     |      6.44      |                              X                                 |
+|    PyramidNet-101   |        42.5M         |     8,743.54M   |        21.98     |      6.20      |                              X                                 |
+|    ResNeXt-14(32x4d)|         9.5M         |     1,603.46M   |        30.32     |     11.46      |  [Try live](https://nerox8664.github.io/cls/#/resnext14_32x4d) |
+|    ResNeXt-26(32x4d)|        15.4M         |     2,488.07M   |        24.14     |      7.46      |  [Try live](https://nerox8664.github.io/cls/#/resnext26_32x4d) |
+|    WRN-50-2         |        68.9M         |    11,405.42M   |        22.53     |      6.41      |                              X                                 |
+|    Xception         |     22,855,952       |     8,403.63M   |        20.97     |      5.49      |                              X                                 |
+|    InceptionV4      |     42,679,816       |    12,304.93M   |        20.64     |      5.29      |                              X                                 |
+|  InceptionResNetV2  |     55,843,464       |    13,188.64M   |        19.93     |      4.90      |                              X                                 |
+|    PolyNet          |     95,366,600       |    34,821.34M   |        19.10     |      4.52      |                              X                                 |
+|  InceptionResNetV2  |     55,843,464       |    13,188.64M   |        19.93     |      4.90      |                              X                                 |
+|    DarkNet Ref      |      7,319,416       |       367.59M   |        38.58     |     17.18      |    [Try live](https://nerox8664.github.io/cls/#/darknet_ref)   |
+|    DarkNet Tiny     |      1,042,104       |       500.85M   |        40.74     |     17.84      |    [Try live](https://nerox8664.github.io/cls/#/darknet_tiny)  |
+|    DarkNet 53       |     41,609,928       |     7,133.86M   |        21.75     |      5.64      |    [Try live](https://nerox8664.github.io/cls/#/darknet53)     |
+|    Attention-92     |        51.3M         |         ?       |        19.5      |      4.8       |                              X                                 |
+|  CondenseNet (G=C=8)|         4.8M         |         ?       |        26.2      |      8.3       |                              X                                 |
+|    DPN-68           |     12,611,602       |     2,351.84M   |        23.24     |      6.79      |    [Try live](https://nerox8664.github.io/cls/#/dpn68)         |
+|  ShuffleNet 2×(g=3) |          ?           |         ?       |        26.3      |       ?        |                              X                                 |
+|  DiracNetV2-18      |     11,511,784       |     1,796.62M   |        31.47     |     11.70      |    [Try live](https://nerox8664.github.io/cls/#/diracnet18v2)  |
+|  DiracNetV2-34      |     21,616,232       |     3,646.93M   |        28.75     |      9.93      |    [Try live](https://nerox8664.github.io/cls/#/diracnet34v2)  |
+|    SENet-16         |     31,366,168       |     5,081.30M   |        25.65     |      8.20      |    [Try live](https://nerox8664.github.io/cls/#/senet14)       |
+|    SENet-154        |    115,088,984       |    20,745.78M   |        18.62     |      4.61      |                              X                                 |
+|  MobileNet x1.0     |      4,231,976       |       579.80M   |        26.61     |      8.95      |    [Try live](https://nerox8664.github.io/cls/#/mobilenet_w1)  |
+|  NASNet-A 4@1056    |      5,289,978       |       584.90M   |        25.68     |      8.16      |                              X                                 |
+|  NASNet-A 6@4032    |     88,753,150       |    23,976.44M   |        18.14     |      4.21      |                              X                                 |
+|    DLA-34           |     15,742,104       |     3,071.37M   |        25.36     |      7.94      |    [Try live](https://nerox8664.github.io/cls/#/dla34)         |
+| AirNet50-1x64d (r=2)|        27.43M        |         ?       |        22.48     |      6.21      |                              X                                 |
+|    BAM-ResNet-50    |        25.92M        |         ?       |        23.68     |      6.96      |                              X                                 |
+|    CBAM-ResNet-50   |        28.1M         |         ?       |        23.02     |      6.38      |                              X                                 |
+|    SqueezeResNet1.1 |      1,235,496       |       352.02M   |        40.09     |      18.21     |[Try live](https://nerox8664.github.io/cls/#/squeezeresnet_v1_1)|
+|    SqueezeNet1.1    |      1,235,496       |       352.02M   |        39.31     |      17.72     |[Try live](https://nerox8664.github.io/cls/#/squeezenet_v1_1)   |
+|    1.0-SqNxt-23v5   |        921,816       |       285.82M   |        40.77     |      17.85     |                              X                                 |
+|    1.5-SqNxt-23v5   |      1,953,616       |       550.97M   |        33.81     |      13.01     |                              X                                 |
+|    2.0-SqNxt-23v5   |      3,366,344       |       897.60M   |        29.63     |      10.66     |                              X                                 |
+|  ShuffleNet v2 2x SE|         7.6M         |         ?       |        24.6      |       ?        |                              X                                 |
+|  456-MENet-24×1(g=3)|         5.3M         |         ?       |        28.4      |      9.8       |                              X                                 |
+|  FD-MobileNet x1.0  |      2,901,288       |       147.46M   |        34.23     |      13.38     |[Try live](https://nerox8664.github.io/cls/#/fdmobilenet_w1)    |
+|  MobileNetV2 x1.0   |      3,504,960       |       329.36M   |        26.97     |      8.87      |[Try live](https://nerox8664.github.io/cls/#/mobilenetv2_w1)    |
+|    IGCV3            |         3.5M         |         ?       |        28.22     |      9.54      |                              X                                 |
+|    DARTS            |         4.9M         |         ?       |        26.9      |      9.0       |                              X                                 |
+|    PNASNet-5        |         5.1M         |         ?       |        25.8      |      8.1       |                              X                                 |
+|    AmoebaNet-C      |         5.1M         |         ?       |        24.3      |      7.6       |                              X                                 |
+|    MnasNet          |      4,308,816       |       317.67M   |        31.58     |     11.74      |    [Try live](https://nerox8664.github.io/cls/#/mnasnet)       |
+|    IBN-Net50-a      |          ?           |         ?       |        22.54     |      6.32      |                              X                                 |
+|    MarginNet        |          ?           |         ?       |        22.0      |       ?        |                              X                                 |
+|    A^2 Net          |          ?           |         ?       |        23.0      |      6.5       |                              X                                 |
+|    FishNeXt-150     |        26.2M         |         ?       |        21.5      |       ?        |                              X                                 |
+|    Shape-ResNet     |        25.5M         |         ?       |        23.28     |      6.72      |                              X                                 |
+|    ResNet-50-Bin-5  |          ?           |         ?       |        23.0      |       ?        |                              X                                 |
+|    SimCNN(k=3 train)|          ?           |         ?       |        28.4      |     10.2       |                              X                                 |
+|    SKNet-50         |        27.5M         |         ?       |        20.79     |       ?        |                              X                                 |
+|    SRM-ResNet-50    |        25.62M        |         ?       |        22.87     |      6.49      |                              X                                 |
+|    EfficientNet-B0  |      5,288,548       |       414.31M   |        24.77     |      7.52      |[Try live](https://nerox8664.github.io/cls/#/efficientnet_b0)   |
+|    EfficientNet-B7b |     66,347,960       |    39,010.98M   |        15.94     |      3.22      |                              X                                 |
+|    ProxylessNAS     |          ?           |         ?       |        24.9      |      7.5       |                              X                                 |
+|    MixNet-L         |        7.3M          |         ?       |        21.1      |      5.8       |                              X                                 |
 
 
 ## Segmentation models
