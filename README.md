@@ -103,7 +103,7 @@ You can check some of the models using [tensorflow.js demo application](https://
 |    1.0-SqNxt-23v5   |        921,816       |       285.82M   |        40.77     |      17.85     |                              X                                 |
 |    1.5-SqNxt-23v5   |      1,953,616       |       550.97M   |        33.81     |      13.01     |                              X                                 |
 |    2.0-SqNxt-23v5   |      3,366,344       |       897.60M   |        29.63     |      10.66     |                              X                                 |
-|  ShuffleNet v2 2x SE|         7.6M         |         ?       |        24.6      |       ?        |                              X                                 |
+|  ShuffleNetV2 x1.0  |      2,278,604       |       149.72M   |        31.44     |      11.63     |  [Try live](https://nerox8664.github.io/cls/#/shufflenetv2_w1) |
 |  456-MENet-24×1(g=3)|         5.3M         |         ?       |        28.4      |      9.8       |                              X                                 |
 |  FD-MobileNet x1.0  |      2,901,288       |       147.46M   |        34.23     |      13.38     |[Try live](https://nerox8664.github.io/cls/#/fdmobilenet_w1)    |
 |  MobileNetV2 x1.0   |      3,504,960       |       329.36M   |        26.97     |      8.87      |[Try live](https://nerox8664.github.io/cls/#/mobilenetv2_w1)    |
