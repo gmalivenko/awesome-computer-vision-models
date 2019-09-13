@@ -86,7 +86,7 @@ You can check some of the models using [tensorflow.js demo application](https://
 |    Attention-92     |        51.3M         |         ?       |        19.5      |      4.8       |                              X                                 |
 |  CondenseNet (G=C=8)|         4.8M         |         ?       |        26.2      |      8.3       |                              X                                 |
 |    DPN-68           |     12,611,602       |     2,351.84M   |        23.24     |      6.79      |    [Try live](https://nerox8664.github.io/cls/#/dpn68)         |
-|  ShuffleNet 2×(g=3) |          ?           |         ?       |        26.3      |       ?        |                              X                                 |
+|ShuffleNet x1.0 (g=1)|      1,531,936       |       148.13M   |        34.93     |     13.89      |  [Try live](https://nerox8664.github.io/cls/#/shufflenet_g1_w1)|
 |  DiracNetV2-18      |     11,511,784       |     1,796.62M   |        31.47     |     11.70      |    [Try live](https://nerox8664.github.io/cls/#/diracnet18v2)  |
 |  DiracNetV2-34      |     21,616,232       |     3,646.93M   |        28.75     |      9.93      |    [Try live](https://nerox8664.github.io/cls/#/diracnet34v2)  |
 |    SENet-16         |     31,366,168       |     5,081.30M   |        25.65     |      8.20      |    [Try live](https://nerox8664.github.io/cls/#/senet14)       |
