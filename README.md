@@ -1,6 +1,7 @@
 # awesome-computer-vision-models [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
 
-This is the list with popular classification and segmentation models related with corresponding evaluation metrics.
+This is a list with popular classification and segmentation models with corresponding evaluation metrics.
+
 You can check some of the models using [tensorflow.js demo application](https://nerox8664.github.io/cls).
 
 
