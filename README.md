@@ -55,6 +55,7 @@ You can check some of the models using [tensorflow.js demo application](https://
 - EfficientNet (['EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks'](http://proceedings.mlr.press/v97/tan19a/tan19a.pdf))[2019]
 - ProxylessNAS (['PROXYLESSNAS: DIRECT NEURAL ARCHITECTURE SEARCH ON TARGET TASK AND HARDWARE'](https://arxiv.org/pdf/1812.00332.pdf))[2019]
 - MixNet (['MixNet: Mixed Depthwise Convolutional Kernels']( https://arxiv.org/abs/1907.09595))[2019]
+- ECA-Net (['ECA-Net: Efficient Channel Attention for Deep Convolutional Neural Networks'](https://arxiv.org/pdf/1910.03151v1.pdf))[2019] 
 
 
 |         Model       | Number of parameters |       FLOPS     |     Top-1 Error  |   Top-5 Error  |                             DEMO                               |
@@ -124,7 +125,9 @@ You can check some of the models using [tensorflow.js demo application](https://
 |    EfficientNet-B0  |      5,288,548       |       414.31M   |        24.77     |      7.52      |[Try live](https://nerox8664.github.io/cls/#/efficientnet_b0)   |
 |    EfficientNet-B7b |     66,347,960       |    39,010.98M   |        15.94     |      3.22      |                              X                                 |
 |    ProxylessNAS     |          ?           |         ?       |        24.9      |      7.5       |                              X                                 |
-|    MixNet-L         |        7.3M          |         ?       |        21.1      |      5.8       |                              X                                 |
+|    MixNet-L         |         7.3M         |         ?       |        21.1      |      5.8       |                              X                                 |
+|    ECA-Net50        |        24.37M        |         3.86G   |        22.52     |      6.32      |                              X                                 |
+|    ECA-Net101       |         7.3M         |         7.35G   |        21.35     |      5.66      |                              X                                 |
 
 
 ## Segmentation models
