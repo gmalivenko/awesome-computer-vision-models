@@ -58,6 +58,8 @@ You can check some of the models using [tensorflow.js demo application](https://
 - MixNet (['MixNet: Mixed Depthwise Convolutional Kernels']( https://arxiv.org/abs/1907.09595))[2019]
 - ECA-Net (['ECA-Net: Efficient Channel Attention for Deep Convolutional Neural Networks'](https://arxiv.org/pdf/1910.03151v1.pdf))[2019] 
 - ACNet-Densenet121 (['ACNet: Strengthening the Kernel Skeletons for Powerful CNN via Asymmetric Convolution Blocks'](https://arxiv.org/abs/1908.03930))[2019]
+- LIP-* (['LIP: Local Importance-based Pooling'](https://arxiv.org/abs/1908.04156))[2019]
+
 
 |         Model       | Number of parameters |       FLOPS     |     Top-1 Error  |   Top-5 Error  |                             DEMO                               |
 |:-------------------:|:--------------------:|:---------------:|:----------------:|:--------------:|:--------------------------------------------------------------:|
@@ -130,6 +132,10 @@ You can check some of the models using [tensorflow.js demo application](https://
 |    ECA-Net50        |        24.37M        |         3.86G   |        22.52     |      6.32      |                              X                                 |
 |    ECA-Net101       |         7.3M         |         7.35G   |        21.35     |      5.66      |                              X                                 |
 |    ACNet-Densenet121|          ?           |         ?       |        24.18     |      7.23      |                              X                                 |
+|    LIP-ResNet-50    |        23.9M         |         5.33G   |        21.81     |      6.04      |                              X                                 |
+|    LIP-ResNet-101   |        42.9M         |         9.06G   |        20.67     |      5.40      |                              X                                 |
+|  LIP-DenseNet-BC-121|         8.7M         |         4.13G   |        23.36     |      6.84      |                              X                                 |
+
 
 ## Segmentation models
 
