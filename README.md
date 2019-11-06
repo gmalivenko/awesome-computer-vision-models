@@ -59,7 +59,7 @@ You can check some of the models using [tensorflow.js demo application](https://
 - ECA-Net (['ECA-Net: Efficient Channel Attention for Deep Convolutional Neural Networks'](https://arxiv.org/pdf/1910.03151v1.pdf))[2019] 
 - ACNet-Densenet121 (['ACNet: Strengthening the Kernel Skeletons for Powerful CNN via Asymmetric Convolution Blocks'](https://arxiv.org/abs/1908.03930))[2019]
 - LIP-* (['LIP: Local Importance-based Pooling'](https://arxiv.org/abs/1908.04156))[2019]
-
+- MuffNet (['MuffNet: Multi-Layer Feature Federation for Mobile Deep Learning'](http://openaccess.thecvf.com/content_ICCVW_2019/papers/CEFRL/Chen_MuffNet_Multi-Layer_Feature_Federation_for_Mobile_Deep_Learning_ICCVW_2019_paper.pdf))[2019]
 
 |         Model       | Number of parameters |       FLOPS     |     Top-1 Error  |   Top-5 Error  |                             DEMO                               |
 |:-------------------:|:--------------------:|:---------------:|:----------------:|:--------------:|:--------------------------------------------------------------:|
@@ -135,6 +135,8 @@ You can check some of the models using [tensorflow.js demo application](https://
 |    LIP-ResNet-50    |        23.9M         |         5.33G   |        21.81     |      6.04      |                              X                                 |
 |    LIP-ResNet-101   |        42.9M         |         9.06G   |        20.67     |      5.40      |                              X                                 |
 |  LIP-DenseNet-BC-121|         8.7M         |         4.13G   |        23.36     |      6.84      |                              X                                 |
+|    MuffNet_1.0      |         2.3M         |         146M    |        30.1      |       ?        |                              X                                 |
+|    MuffNet_1.5      |         3.4M         |         300M    |        26.9      |       ?        |                              X                                 |
 
 
 ## Segmentation models
