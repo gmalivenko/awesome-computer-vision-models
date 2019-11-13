@@ -61,6 +61,9 @@ You can check some of the models using [tensorflow.js demo application](https://
 - LIP-* (['LIP: Local Importance-based Pooling'](https://arxiv.org/abs/1908.04156))[2019]
 - MuffNet (['MuffNet: Multi-Layer Feature Federation for Mobile Deep Learning'](http://openaccess.thecvf.com/content_ICCVW_2019/papers/CEFRL/Chen_MuffNet_Multi-Layer_Feature_Federation_for_Mobile_Deep_Learning_ICCVW_2019_paper.pdf))[2019]
 - *-Bin-5 (['Making Convolutional Networks Shift-Invariant Again'](https://arxiv.org/abs/1904.11486))[2019]
+- FixRes ResNeXt-101 WSL (['Fixing the train-test resolution discrepancy'](https://arxiv.org/abs/1906.06423))[2019]
+- Noisy Student (L2) (using extra-data) (['Self-training with Noisy Student improves ImageNet classification'](https://arxiv.org/abs/1911.04252))[2019]
+
 
 |         Model       | Number of parameters |       FLOPS     |     Top-1 Error  |   Top-5 Error  |                             DEMO                               |
 |:-------------------:|:--------------------:|:---------------:|:----------------:|:--------------:|:--------------------------------------------------------------:|
@@ -141,6 +144,9 @@ You can check some of the models using [tensorflow.js demo application](https://
 |    ResNet-34-Bin-5  |        21.8M         |     3,672.68M   |        25.80     |       ?        |                              X                                 |
 |    ResNet-50-Bin-5  |        25.5M         |     3,877.95M   |        22.96     |       ?        |                              X                                 |
 |  MobileNetV2-Bin-5  |      3,504,960       |       329.36M   |        27.50     |       ?        |                              X                                 |
+|FixRes ResNeXt101 WSL|        829M          |          ?      |        13.6      |      2.0       |                              X                                 |
+|  Noisy Student*(L2) |        480M          |          ?      |        12.6      |      1.8       |                              X                                 |
+
 
 
 ## Segmentation models
