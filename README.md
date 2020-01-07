@@ -3,11 +3,13 @@
 This is a list with popular classification, segmentation and detection models with corresponding evaluation metrics.
 You can also try some of the models using [tensorflow.js application](https://nerox8664.github.io/cls).
 
+
 ## Contents
 
 - [Classification models](#classification-models)
 - [Segmentation models](#segmentation-models)
 - [Detection models](#detection-models)
+
 
 ## Classification models
 
