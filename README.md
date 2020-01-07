@@ -1,9 +1,13 @@
 # awesome-computer-vision-models [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
 
 This is a list with popular classification, segmentation and detection models with corresponding evaluation metrics.
+You can also try some of the models using [tensorflow.js application](https://nerox8664.github.io/cls).
 
-You can try some of the models using [tensorflow.js demo application](https://nerox8664.github.io/cls).
+## Computer vision models
 
+- [Classification models](#classification-models)
+- [Segmentation models](#segmentation-models)
+- [Detection models](#detection-models)
 
 ## Classification models
 
@@ -132,3 +136,7 @@ You can try some of the models using [tensorflow.js demo application](https://ne
 |SPADE (['Semantic Image Synthesis with Spatially-Adaptive Normalization'](https://arxiv.org/pdf/1903.07291.pdf))             | 2019  |          ?          |        62.3         |             ?          |     37.4     |          38.5          |
 |SeamlessSeg (['Seamless Scene Segmentation'](https://arxiv.org/pdf/1905.01220v1.pdf))                                        | 2019  |          ?          |        77.5         |             ?          |       ?      |            ?           |
 |EMANet (['Expectation-Maximization Attention Networks for Semantic Segmentation'](https://arxiv.org/pdf/1907.13426.pdf))     | 2019  |          ?          |          ?          |           88.2         |     39.9     |            ?           |
+
+## Detection models
+
+TODO.
