@@ -1,4 +1,4 @@
-# awesome-computer-vision-models [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
+# Awesome Computer Vision Models [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
 
 This is a list with popular classification, segmentation and detection models with corresponding evaluation metrics.
 You can also try some of the models using [tensorflow.js application](https://nerox8664.github.io/cls).
