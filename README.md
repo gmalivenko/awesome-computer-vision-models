@@ -3,7 +3,7 @@
 This is a list with popular classification, segmentation and detection models with corresponding evaluation metrics.
 You can also try some of the models using [tensorflow.js application](https://nerox8664.github.io/cls).
 
-## Computer vision models
+## Contents
 
 - [Classification models](#classification-models)
 - [Segmentation models](#segmentation-models)
@@ -140,3 +140,7 @@ You can also try some of the models using [tensorflow.js application](https://ne
 ## Detection models
 
 TODO.
+
+## License
+
+This work is licensed under the Creative Commons Attribution 4.0 International License - [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
