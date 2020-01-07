@@ -188,8 +188,3 @@ You can also try some of the models using [tensorflow.js application](https://ne
 | LibraRetinaNet (['Libra R-CNN: Towards Balanced Learning for Object Detection'](https://arxiv.org/pdf/1904.02701v1.pdf))                                                                                                                        | 2019  |          ?          |          ?          |    43.0    |
 | YOLACT-700 (['YOLACT Real-time Instance Segmentation'](https://arxiv.org/pdf/1904.02689v1.pdf))                                                                                                                                                 | 2019  |          ?          |          ?          |    31.2    |
 | DetNASNet(3.8) (['DetNAS: Backbone Search for Object Detection'](https://arxiv.org/pdf/1903.10979v2.pdf))                                                                                                                                       | 2019  |          ?          |          ?          |    42.0    |
-
-
-## License
-
-This work is licensed under the Creative Commons Attribution 4.0 International License - [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
