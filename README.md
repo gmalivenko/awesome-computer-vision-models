@@ -7,11 +7,10 @@ You can also try some of the models using [tensorflow.js application](https://ne
 
 - [Classification models](#classification-models)
 - [Segmentation models](#segmentation-models)
-- [Detection models](#detection-models)
 
 ## Classification models
 
-|                                                               Model                                                                 | Number of parameters |       FLOPS     |     Top-1 Error  |   Top-5 Error  |  Year |                              DEMO                               |
+|                                                               Model                                                                 | Number of parameters |      FLOPS      |    Top-1 Error   |   Top-5 Error  |  Year |                              DEMO                               |
 |:-----------------------------------------------------------------------------------------------------------------------------------:|:--------------------:|:---------------:|:----------------:|:--------------:|:-----:|:---------------------------------------------------------------:|
 |AlexNet (['One weird trick for parallelizing convolutional neural networks'](https://arxiv.org/abs/1404.5997))                       |        62.3M         |     1,132.33M   |        40.96     |     18.24      |  2014 |                               X                                 |
 |VGG-16 (['Very Deep Convolutional Networks for Large-Scale Image Recognition'](https://arxiv.org/abs/1409.1556))                     |       138.3M         |         ?       |        26.78     |      8.69      |  2014 |                               X                                 |
@@ -137,9 +136,6 @@ You can also try some of the models using [tensorflow.js application](https://ne
 |SeamlessSeg (['Seamless Scene Segmentation'](https://arxiv.org/pdf/1905.01220v1.pdf))                                        | 2019  |          ?          |        77.5         |             ?          |       ?      |            ?           |
 |EMANet (['Expectation-Maximization Attention Networks for Semantic Segmentation'](https://arxiv.org/pdf/1907.13426.pdf))     | 2019  |          ?          |          ?          |           88.2         |     39.9     |            ?           |
 
-## Detection models
-
-TODO.
 
 ## License
 
