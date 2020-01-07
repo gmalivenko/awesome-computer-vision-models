@@ -88,7 +88,9 @@ You can try some of the models using [tensorflow.js demo application](https://ne
 |Noisy Student*(L2) (['Self-training with Noisy Student improves ImageNet classification'](https://arxiv.org/abs/1911.04252))         |        480M          |          ?      |        12.6      |      1.8       |  2019 |                               X                                 |
 
 
-<!--## Segmentation models-->
+## Segmentation models
+
+TODO
 
 <!--### Semantic segmentation-->
 <!--- U-Net (['U-Net: Convolutional Networks for Biomedical Image Segmentation'](https://arxiv.org/pdf/1505.04597.pdf)) [2015]-->
@@ -178,7 +180,9 @@ You can try some of the models using [tensorflow.js demo application](https://ne
 <!--|   EMANet      |          ?          |          ?          |           88.2         |     39.9     |            ?           |-->
 
 
-<!--## Detection models-->
+## Detection models
+
+TODO.
 
 <!--- [R-CNN] Rich feature hierarchies for accurate object detection and semantic segmentation | Ross Girshick, Jeff Donahue, Trevor Darrell, Jitendra Malik | [CVPR' 14] |[`[pdf]`](https://arxiv.org/pdf/1311.2524.pdf) [`[official code - caffe]`](https://github.com/rbgirshick/rcnn) [2014]-->
 <!--- [OverFeat] OverFeat: Integrated Recognition, Localization and Detection using Convolutional Networks | Pierre Sermanet, et al. | [ICLR' 14] |[`[pdf]`](https://arxiv.org/pdf/1312.6229.pdf) [`[official code - torch]`](https://github.com/sermanet/OverFeat) [2014]-->
