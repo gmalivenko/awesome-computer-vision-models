@@ -90,52 +90,6 @@ You can try some of the models using [tensorflow.js demo application](https://ne
 
 ## Segmentation models
 
-TODO
-
-<!--### Semantic segmentation-->
-<!--- U-Net (['U-Net: Convolutional Networks for Biomedical Image Segmentation'](https://arxiv.org/pdf/1505.04597.pdf)) [2015]-->
-<!--- DeconvNet (['Learning Deconvolution Network for Semantic Segmentation'](https://arxiv.org/pdf/1505.04366.pdf)) [2015]-->
-<!--- ParseNet (['ParseNet: Looking Wider to See Better'](https://arxiv.org/abs/1506.04579)) [2015]-->
-<!--- Piecewise (['Efficient piecewise training of deep structured models for semantic segmentation'](https://arxiv.org/abs/1504.01013)) [2015]-->
-<!--- SegNet (['SegNet: A Deep Convolutional Encoder-Decoder Architecture for Image Segmentation'](https://arxiv.org/pdf/1511.00561.pdf)) [2016]-->
-<!--- FCN (['Fully Convolutional Networks for Semantic Segmentation'](https://arxiv.org/pdf/1605.06211.pdf)) [2016]-->
-<!--- ENet (['ENet: A Deep Neural Network Architecture for Real-Time Semantic Segmentation'](https://arxiv.org/pdf/1606.02147.pdf)) [2016]-->
-<!--- DilatedNet (['MULTI-SCALE CONTEXT AGGREGATION BY DILATED CONVOLUTIONS'](https://arxiv.org/pdf/1511.07122.pdf)) [2016]-->
-<!--- PixelNet (['PixelNet: Towards a General Pixel-Level Architecture'](https://arxiv.org/pdf/1609.06694.pdf)) [2016]-->
-<!--- RefineNet (['RefineNet: Multi-Path Refinement Networks for High-Resolution Semantic Segmentation'](https://arxiv.org/pdf/1611.06612.pdf)) [2016]-->
-<!--- LRR (['Laplacian Pyramid Reconstruction and Refinement for Semantic Segmentation'](https://arxiv.org/pdf/1605.02264.pdf)) [2016]-->
-<!--- FRRN (['Full-Resolution Residual Networks for Semantic Segmentation in Street Scenes'](https://arxiv.org/pdf/1611.08323.pdf)) [2016]-->
-<!--- Semantic Segmentation using Adversarial Networks (['Semantic Segmentation using Adversarial Networks'](https://arxiv.org/pdf/1611.08408.pdf)) [2016]-->
-<!--- MultiNet (['MultiNet: Real-time Joint Semantic Reasoning for Autonomous Driving'](https://arxiv.org/pdf/1612.07695.pdf)) [2016]-->
-<!--- DeepLab (['DeepLab: Semantic Image Segmentation with Deep Convolutional Nets, Atrous Convolution, and Fully Connected CRFs'](https://arxiv.org/pdf/1606.00915.pdf)) [2017]-->
-<!--- LinkNet (['LinkNet: Exploiting Encoder Representations for Efficient Semantic Segmentation'](https://arxiv.org/pdf/1707.03718.pdf)) [2017]-->
-<!--- Tiramisu (['The One Hundred Layers Tiramisu: Fully Convolutional DenseNets for Semantic Segmentation'](https://arxiv.org/pdf/1611.09326.pdf)) [2017]-->
-<!--- ICNet (['ICNet for Real-Time Semantic Segmentation on High-Resolution Images'](https://arxiv.org/pdf/1704.08545.pdf)) [2017]-->
-<!--- ERFNet (['Efficient ConvNet for Real-time Semantic Segmentation'](http://www.robesafe.uah.es/personal/eduardo.romera/pdfs/Romera17iv.pdf)) [2017]-->
-<!--- PSPNet (['Pyramid Scene Parsing Network'](https://arxiv.org/pdf/1612.01105.pdf)) [2017]-->
-<!--- GCN (['Large Kernel Matters — Improve Semantic Segmentation by Global Convolutional Network'](https://arxiv.org/pdf/1703.02719.pdf)) [2017]-->
-<!--- Segaware (['Segmentation-Aware Convolutional Networks Using Local Attention Masks'](https://arxiv.org/pdf/1708.04607.pdf)) [2017]-->
-<!--- PixelDCN (['PIXEL DECONVOLUTIONAL NETWORKS'](https://arxiv.org/pdf/1705.06820.pdf)) [2017]-->
-<!--- DeepLabv3 (['Rethinking Atrous Convolution for Semantic Image Segmentation'](https://arxiv.org/pdf/1706.05587.pdf)) [2017]-->
-<!--- DUC, HDC (['Understanding Convolution for Semantic Segmentation'](https://arxiv.org/pdf/1702.08502.pdf)) [2018]-->
-<!--- ShuffleSeg (['SHUFFLESEG: REAL-TIME SEMANTIC SEGMENTATION NETWORK'](https://arxiv.org/pdf/1803.03816.pdf)) [2018]-->
-<!--- AdaptSegNet (['Learning to Adapt Structured Output Space for Semantic Segmentation'](https://arxiv.org/pdf/1802.10349.pdf)) [2018]-->
-<!--- TuSimple-DUC (['Understanding Convolution for Semantic Segmentation'](https://arxiv.org/pdf/1702.08502.pdf)) [2018]-->
-<!--- R2U-Net (['Recurrent Residual Convolutional Neural Network based on U-Net (R2U-Net) for Medical Image Segmentation'](https://arxiv.org/pdf/1802.06955.pdf)) [2018]-->
-<!--- Attention U-Net (['Attention U-Net: Learning Where to Look for the Pancreas'](https://arxiv.org/pdf/1804.03999.pdf)) [2018]-->
-<!--- DANet (['Dual Attention Network for Scene Segmentation'](https://arxiv.org/pdf/1809.02983.pdf)) [2018]-->
-<!--- ENCNet (['Context Encoding for Semantic Segmentation'](https://arxiv.org/abs/1803.08904)) [2018]-->
-<!--- ShelfNet (['ShelfNet for Real-time Semantic Segmentation'](https://arxiv.org/pdf/1811.11254.pdf)) [2018]-->
-<!--- LadderNet (['LADDERNET: MULTI-PATH NETWORKS BASED ON U-NET FOR MEDICAL IMAGE SEGMENTATION'](https://arxiv.org/pdf/1810.07810.pdf)) [2018]-->
-<!--- ССС (['Concentrated-Comprehensive Convolutions for lightweight semantic segmentation'](https://arxiv.org/pdf/1812.04920v1.pdf)) [2018]-->
-<!--- DifNet (['DifNet: Semantic Segmentation by Diffusion Networks'](http://papers.nips.cc/paper/7435-difnet-semantic-segmentation-by-diffusion-networks.pdf)) [2018]-->
-<!--- BiSeNet (['BiSeNet: Bilateral Segmentation Network for Real-time Semantic Segmentation'](https://arxiv.org/pdf/1808.00897.pdf)) [2018]-->
-<!--- ESPNet (['ESPNet: Efficient Spatial Pyramid of Dilated Convolutions for Semantic Segmentation'](https://arxiv.org/pdf/1803.06815.pdf)) [2018]-->
-<!--- SPADE (['Semantic Image Synthesis with Spatially-Adaptive Normalization'](https://arxiv.org/pdf/1903.07291.pdf)) [2019]-->
-<!--- SeamlessSeg (['Seamless Scene Segmentation'](https://arxiv.org/pdf/1905.01220v1.pdf)) [2019]-->
-<!--- EMANet (['Expectation-Maximization Attention Networks for Semantic Segmentation'](https://arxiv.org/pdf/1907.13426.pdf)) [2019]-->
-
-
 |                                                                Model                                                        |  Year |   PASCAL-Context    |  Cityscapes (mIOU)  | PASCAL VOC 2012 (mIOU) |  COCO Stuff  |    ADE20K VAL (mIOU)   |
 |:---------------------------------------------------------------------------------------------------------------------------:|:-----:|:-------------------:|:-------------------:|:----------------------:|:------------:|:----------------------:| 
 |U-Net (['U-Net: Convolutional Networks for Biomedical Image Segmentation'](https://arxiv.org/pdf/1505.04597.pdf))            | 2015  |          ?          |          ?          |             ?          |       ?      |            ?           |
