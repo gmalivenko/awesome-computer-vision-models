@@ -1,6 +1,6 @@
 # Awesome Computer Vision Models [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
 
-A curated list of popular classification, segmentation and detection models with corresponding evaluation metrics from papers. There are some of the models available for inference using `tensorflow.js` (look for a link at `DEMO` column).
+A curated list of popular classification, segmentation and detection models with corresponding evaluation metrics from papers. Some of the models are also available for inference using `tensorflow.js` (look for a link in `DEMO` column).
 
 
 ## Contents
